@@ -35,4 +35,6 @@
 > - [Python extension pack](https://marketplace.visualstudio.com/items?itemName=LeoJhonSong.python-extension-pack)
 > - [C++ extension pack](https://marketplace.visualstudio.com/items?itemName=franneck94.vscode-c-cpp-dev-extension-pack)
 > - [Remot containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+> - [Gitlens extension](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+> - [Gitgraph extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 > - Error messages may apper when not using Docker image don't worry
