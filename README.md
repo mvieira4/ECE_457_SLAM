@@ -13,9 +13,9 @@
 - Follow naming convention
 > - Name feture branches feat-feature-name
 > - Name patch branches bug-bug-name
-> - Name commit action[item changed]: short description of change
+> - Name commit action[files changed]: short description of change
 >> - Use prenent tense
->> - Ex. fix[GUI]: fixed broken send button
+>> - Ex. fix[README]: fixed typo
 > - Actions:
 >> - fix
 >> - add
@@ -26,7 +26,7 @@
 > - Major - restructuring
 > - Minor - added feature
 > - Patch - hot fix
-> Ex. v0.1.2
+> - Ex. v0.1.2
 - Name production branches prod-vMajor.Minor.Patch
 ### Dev Enviroment
 - Build provided docker file
