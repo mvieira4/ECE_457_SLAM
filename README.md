@@ -1,3 +1,5 @@
+# Project Statement
+> The team is tasked with developing and enhancing existing software using Python and Cpp, which can communicate with a ROSbot 2.0 to perform SLAM (Simultaneous Localization and Mapping). The team must then devise methods to quantifiably measure and assess the robot’s capabilities of performing both slam and autonomous navigation.
 # Guide Lines
 ### Software
 - Github
