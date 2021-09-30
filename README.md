@@ -15,7 +15,7 @@
 - Follow naming convention
 > - Name feture branches feat-feature-name
 > - Name patch branches bug-bug-name
-> - Name commit action[files changed]: short description of change
+> - Name commit action[file changed]: short description of change
 >> - Use prenent tense
 >> - Ex. fix[README]: fixed typo
 > - Actions:
