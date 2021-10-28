@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/ros_workspace/src/rosbot_description/src/rosbot_description
+# Install script for directory: /home/ros/ECE_457_SLAM/computer-vision/ros_workspace/src/rosbot_description/src/rosbot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/ros_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,41 +33,41 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/ros/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/safe_execute_install.cmake")
+  include("/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/installspace/rosbot_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/installspace/rosbot_description.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description/cmake" TYPE FILE FILES
-    "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/installspace/rosbot_descriptionConfig.cmake"
-    "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/installspace/rosbot_descriptionConfig-version.cmake"
+    "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/installspace/rosbot_descriptionConfig.cmake"
+    "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/installspace/rosbot_descriptionConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE FILE FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE FILE FILES "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/src/rosbot_description/src/rosbot_description/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description/rosbot_description" TYPE PROGRAM FILES "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/installspace/serial_bridge.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description/rosbot_description" TYPE PROGRAM FILES "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/rosbot_description/src/rosbot_description/catkin_generated/installspace/serial_bridge.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE DIRECTORY FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_description/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/src/rosbot_description/src/rosbot_description/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE DIRECTORY FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_description/meshes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/src/rosbot_description/src/rosbot_description/meshes")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE DIRECTORY FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_description/rviz")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/src/rosbot_description/src/rosbot_description/rviz")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE DIRECTORY FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_description/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_description" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/src/rosbot_description/src/rosbot_description/urdf")
 endif()
 

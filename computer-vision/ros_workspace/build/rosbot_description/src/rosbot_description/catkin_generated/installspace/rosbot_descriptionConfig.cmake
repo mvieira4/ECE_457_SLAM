@@ -67,14 +67,14 @@ set(rosbot_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosbot_description_SOURCE_PREFIX /home/ros/ros_workspace/src/rosbot_description/src/rosbot_description)
-  set(rosbot_description_DEVEL_PREFIX /home/ros/ros_workspace/devel)
+  set(rosbot_description_SOURCE_PREFIX /home/ros/ECE_457_SLAM/computer-vision/ros_workspace/src/rosbot_description/src/rosbot_description)
+  set(rosbot_description_DEVEL_PREFIX /home/ros/ECE_457_SLAM/computer-vision/ros_workspace/devel)
   set(rosbot_description_INSTALL_PREFIX "")
   set(rosbot_description_PREFIX ${rosbot_description_DEVEL_PREFIX})
 else()
   set(rosbot_description_SOURCE_PREFIX "")
   set(rosbot_description_DEVEL_PREFIX "")
-  set(rosbot_description_INSTALL_PREFIX /home/ros/ros_workspace/install)
+  set(rosbot_description_INSTALL_PREFIX /home/ros/ECE_457_SLAM/computer-vision/ros_workspace/install)
   set(rosbot_description_PREFIX ${rosbot_description_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/ros_workspace/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/ros/ECE_457_SLAM/computer-vision/ros_workspace/install/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
