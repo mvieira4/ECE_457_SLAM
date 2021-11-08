@@ -1,2 +1,2 @@
-rosbot_description/src/rosbot_description:rosbot_description/src/rosbot_gazebo:rosbot_description/src/rosbot_navigation
+rosbot_description/src/rosbot_description:rosbot_description/src/rosbot_gazebo:rosbot_description/src/rosbot_navigation:tutorial_pkg
 -DCATKIN_DEVEL_PREFIX=/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/install -G Unix Makefiles
