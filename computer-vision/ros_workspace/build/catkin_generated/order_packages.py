@@ -2,4 +2,4 @@
 source_root_dir = '/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/opt/ros/kinetic'.split(';') if '/opt/ros/kinetic' != '' else []
+underlay_workspaces = '/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/devel;/opt/ros/kinetic'.split(';') if '/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/devel;/opt/ros/kinetic' != '' else []

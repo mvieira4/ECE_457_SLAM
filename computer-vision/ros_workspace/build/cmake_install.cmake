@@ -127,9 +127,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/gtest/cmake_install.cmake")
   include("/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/tutorial_pkg/cmake_install.cmake")
-  include("/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/rosbot_description/src/rosbot_navigation/cmake_install.cmake")
-  include("/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/rosbot_description/src/rosbot_description/cmake_install.cmake")
-  include("/home/ros/ECE_457_SLAM/computer-vision/ros_workspace/build/rosbot_description/src/rosbot_gazebo/cmake_install.cmake")
 
 endif()
 
