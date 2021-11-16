@@ -20,7 +20,7 @@
 >> - Ex. fix[README]: fixed typo
 > - Actions:
 >> - fix
->> - add
+>> - add 
 >> - test
 >> - wip
 - Tag merges to main with version numbers 
