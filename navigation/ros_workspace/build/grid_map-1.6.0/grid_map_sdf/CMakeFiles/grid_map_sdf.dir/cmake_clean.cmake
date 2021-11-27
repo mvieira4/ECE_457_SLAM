@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/grid_map_sdf.dir/src/SignedDistanceField.cpp.o"
-  "/home/ros/ros_workspace/devel/lib/libgrid_map_sdf.pdb"
-  "/home/ros/ros_workspace/devel/lib/libgrid_map_sdf.so"
+  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/libgrid_map_sdf.pdb"
+  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/libgrid_map_sdf.so"
 )
 
 # Per-language clean rules from dependency scanning.

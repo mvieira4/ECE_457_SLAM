@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.o"
-  "/home/ros/ros_workspace/devel/lib/libgrid_map_pcl.pdb"
-  "/home/ros/ros_workspace/devel/lib/libgrid_map_pcl.so"
+  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/libgrid_map_pcl.pdb"
+  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/libgrid_map_pcl.so"
 )
 
 # Per-language clean rules from dependency scanning.

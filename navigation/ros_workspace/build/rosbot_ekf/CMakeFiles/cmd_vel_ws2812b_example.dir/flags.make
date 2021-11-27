@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"rosbot_ekf\"
 
-CXX_INCLUDES = -I/home/ros/ros_workspace/devel/include -I/home/ros/ros_workspace/src/rosbot_ekf/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/include -I/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_ekf/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ros_workspace/src
+CMAKE_SOURCE_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ros_workspace/build
+CMAKE_BINARY_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/build
 
 # Utility rule file for rosbot_ekf_generate_messages.
 
@@ -63,10 +63,10 @@ rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/build: rosbot_ekf_generat
 .PHONY : rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/build
 
 rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/clean:
-	cd /home/ros/ros_workspace/build/rosbot_ekf && $(CMAKE_COMMAND) -P CMakeFiles/rosbot_ekf_generate_messages.dir/cmake_clean.cmake
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/rosbot_ekf && $(CMAKE_COMMAND) -P CMakeFiles/rosbot_ekf_generate_messages.dir/cmake_clean.cmake
 .PHONY : rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/clean
 
 rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/depend:
-	cd /home/ros/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ros_workspace/src /home/ros/ros_workspace/src/rosbot_ekf /home/ros/ros_workspace/build /home/ros/ros_workspace/build/rosbot_ekf /home/ros/ros_workspace/build/rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ECE_457_SLAM/navigation/ros_workspace/src /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_ekf /home/ros/ECE_457_SLAM/navigation/ros_workspace/build /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/rosbot_ekf /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/depend
 

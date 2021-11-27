@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/ros_workspace/src/rosbot_ekf/src/msgs_conversion.cpp
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_ekf/src/msgs_conversion.cpp
 ros/ros.h
-/home/ros/ros_workspace/src/rosbot_ekf/src/ros/ros.h
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_ekf/src/ros/ros.h
 geometry_msgs/PoseStamped.h
-/home/ros/ros_workspace/src/rosbot_ekf/src/geometry_msgs/PoseStamped.h
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_ekf/src/geometry_msgs/PoseStamped.h
 nav_msgs/Odometry.h
-/home/ros/ros_workspace/src/rosbot_ekf/src/nav_msgs/Odometry.h
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_ekf/src/nav_msgs/Odometry.h
 string
 -
 

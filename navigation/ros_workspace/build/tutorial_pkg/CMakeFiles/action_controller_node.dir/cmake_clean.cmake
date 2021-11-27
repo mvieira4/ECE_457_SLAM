@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o"
-  "/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node.pdb"
-  "/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node"
+  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node.pdb"
+  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node"
 )
 
 # Per-language clean rules from dependency scanning.

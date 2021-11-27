@@ -43,102 +43,102 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ros_workspace/src
+CMAKE_SOURCE_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ros_workspace/build
+CMAKE_BINARY_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/build
 
 # Utility rule file for grid_map_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/progress.make
 
-grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py
-grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py
-grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py
-grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py
-grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py
-grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py
-grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py
+grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py
+grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py
+grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py
+grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py
+grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py
+grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py
+grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py
 
 
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG grid_map_msgs/GridMapInfo"
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg -Igrid_map_msgs:/home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG grid_map_msgs/GridMapInfo"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg -Igrid_map_msgs:/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg
 
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMap.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/std_msgs/msg/Float32MultiArray.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/std_msgs/msg/MultiArrayLayout.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG grid_map_msgs/GridMap"
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMap.msg -Igrid_map_msgs:/home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMap.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/std_msgs/msg/Float32MultiArray.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/std_msgs/msg/MultiArrayLayout.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG grid_map_msgs/GridMap"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMap.msg -Igrid_map_msgs:/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg
 
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMapInfo.srv
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV grid_map_msgs/GetGridMapInfo"
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMapInfo.srv -Igrid_map_msgs:/home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMapInfo.srv
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV grid_map_msgs/GetGridMapInfo"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMapInfo.srv -Igrid_map_msgs:/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv
 
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMap.srv
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/std_msgs/msg/Float32MultiArray.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/std_msgs/msg/MultiArrayLayout.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/std_msgs/msg/MultiArrayDimension.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMap.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV grid_map_msgs/GetGridMap"
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMap.srv -Igrid_map_msgs:/home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMap.srv
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/std_msgs/msg/Float32MultiArray.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/std_msgs/msg/MultiArrayLayout.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMap.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV grid_map_msgs/GetGridMap"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMap.srv -Igrid_map_msgs:/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv
 
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py: /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/ProcessFile.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV grid_map_msgs/ProcessFile"
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/ProcessFile.srv -Igrid_map_msgs:/home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/ProcessFile.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV grid_map_msgs/ProcessFile"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/ProcessFile.srv -Igrid_map_msgs:/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv
 
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for grid_map_msgs"
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg --initpy
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for grid_map_msgs"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg --initpy
 
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py
-/home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python srv __init__.py for grid_map_msgs"
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv --initpy
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python srv __init__.py for grid_map_msgs"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv --initpy
 
 grid_map_msgs_generate_messages_py: grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py
-grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py
-grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py
-grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py
-grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py
-grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py
-grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py
-grid_map_msgs_generate_messages_py: /home/ros/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py
+grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMapInfo.py
+grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/_GridMap.py
+grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py
+grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_GetGridMap.py
+grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/_ProcessFile.py
+grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/msg/__init__.py
+grid_map_msgs_generate_messages_py: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/grid_map_msgs/srv/__init__.py
 grid_map_msgs_generate_messages_py: grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/build.make
 
 .PHONY : grid_map_msgs_generate_messages_py
@@ -149,10 +149,10 @@ grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/b
 .PHONY : grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/build
 
 grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/clean:
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && $(CMAKE_COMMAND) -P CMakeFiles/grid_map_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs && $(CMAKE_COMMAND) -P CMakeFiles/grid_map_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/clean
 
 grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/depend:
-	cd /home/ros/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ros_workspace/src /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_msgs /home/ros/ros_workspace/build /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ECE_457_SLAM/navigation/ros_workspace/src /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs /home/ros/ECE_457_SLAM/navigation/ros_workspace/build /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : grid_map-1.6.0/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_py.dir/depend
 

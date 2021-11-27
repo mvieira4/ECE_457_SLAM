@@ -1,4 +1,4 @@
-prefix=/home/ros/ros_workspace/devel
+prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel
 
 Name: tutorial_pkg
 Description: Description of tutorial_pkg

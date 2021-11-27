@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/ros_workspace/src/map_navigation_pkg/src/map_navigation_pkg_node.cpp
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/map_navigation_pkg/src/map_navigation_pkg_node.cpp
 ros/ros.h
 -
 geometry_msgs/PoseStamped.h

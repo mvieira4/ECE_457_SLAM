@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ros_workspace/src
+CMAKE_SOURCE_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ros_workspace/build
+CMAKE_BINARY_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/build
 
 # Include any dependencies generated for this target.
 include tutorial_pkg/CMakeFiles/action_controller_node.dir/depend.make
@@ -58,17 +58,17 @@ include tutorial_pkg/CMakeFiles/action_controller_node.dir/progress.make
 include tutorial_pkg/CMakeFiles/action_controller_node.dir/flags.make
 
 tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o: tutorial_pkg/CMakeFiles/action_controller_node.dir/flags.make
-tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o: /home/ros/ros_workspace/src/tutorial_pkg/src/action_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o"
-	cd /home/ros/ros_workspace/build/tutorial_pkg && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o -c /home/ros/ros_workspace/src/tutorial_pkg/src/action_controller.cpp
+tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/src/action_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o -c /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/src/action_controller.cpp
 
 tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/action_controller_node.dir/src/action_controller.cpp.i"
-	cd /home/ros/ros_workspace/build/tutorial_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/ros_workspace/src/tutorial_pkg/src/action_controller.cpp > CMakeFiles/action_controller_node.dir/src/action_controller.cpp.i
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/src/action_controller.cpp > CMakeFiles/action_controller_node.dir/src/action_controller.cpp.i
 
 tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/action_controller_node.dir/src/action_controller.cpp.s"
-	cd /home/ros/ros_workspace/build/tutorial_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/ros_workspace/src/tutorial_pkg/src/action_controller.cpp -o CMakeFiles/action_controller_node.dir/src/action_controller.cpp.s
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/src/action_controller.cpp -o CMakeFiles/action_controller_node.dir/src/action_controller.cpp.s
 
 tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o.requires:
 
@@ -88,110 +88,110 @@ action_controller_node_OBJECTS = \
 # External object files for target action_controller_node
 action_controller_node_EXTERNAL_OBJECTS =
 
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: tutorial_pkg/CMakeFiles/action_controller_node.dir/build.make
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /home/ros/ros_workspace/devel/lib/libgrid_map_ros.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /home/ros/ros_workspace/devel/lib/libgrid_map_cv.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /home/ros/ros_workspace/devel/lib/libgrid_map_core.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libmean.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libparams.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libincrement.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libmedian.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtransfer_function.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/libPocoFoundation.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libroslib.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librospack.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libcv_bridge.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosbag.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosbag_storage.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libroslz4.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtopic_tools.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtf.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libactionlib.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtf2.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librostime.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: tutorial_pkg/CMakeFiles/action_controller_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node"
-	cd /home/ros/ros_workspace/build/tutorial_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/action_controller_node.dir/link.txt --verbose=$(VERBOSE)
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: tutorial_pkg/CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: tutorial_pkg/CMakeFiles/action_controller_node.dir/build.make
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/libgrid_map_ros.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/libgrid_map_cv.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/libgrid_map_core.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libmean.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libparams.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libincrement.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libmedian.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtransfer_function.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/libPocoFoundation.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libroslib.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librospack.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libcv_bridge.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosbag.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosbag_storage.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libroslz4.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtopic_tools.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtf.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libactionlib.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libtf2.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/librostime.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node: tutorial_pkg/CMakeFiles/action_controller_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/action_controller_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-tutorial_pkg/CMakeFiles/action_controller_node.dir/build: /home/ros/ros_workspace/devel/lib/tutorial_pkg/action_controller_node
+tutorial_pkg/CMakeFiles/action_controller_node.dir/build: /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node
 
 .PHONY : tutorial_pkg/CMakeFiles/action_controller_node.dir/build
 
@@ -200,10 +200,10 @@ tutorial_pkg/CMakeFiles/action_controller_node.dir/requires: tutorial_pkg/CMakeF
 .PHONY : tutorial_pkg/CMakeFiles/action_controller_node.dir/requires
 
 tutorial_pkg/CMakeFiles/action_controller_node.dir/clean:
-	cd /home/ros/ros_workspace/build/tutorial_pkg && $(CMAKE_COMMAND) -P CMakeFiles/action_controller_node.dir/cmake_clean.cmake
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg && $(CMAKE_COMMAND) -P CMakeFiles/action_controller_node.dir/cmake_clean.cmake
 .PHONY : tutorial_pkg/CMakeFiles/action_controller_node.dir/clean
 
 tutorial_pkg/CMakeFiles/action_controller_node.dir/depend:
-	cd /home/ros/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ros_workspace/src /home/ros/ros_workspace/src/tutorial_pkg /home/ros/ros_workspace/build /home/ros/ros_workspace/build/tutorial_pkg /home/ros/ros_workspace/build/tutorial_pkg/CMakeFiles/action_controller_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ECE_457_SLAM/navigation/ros_workspace/src /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg /home/ros/ECE_457_SLAM/navigation/ros_workspace/build /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg/CMakeFiles/action_controller_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorial_pkg/CMakeFiles/action_controller_node.dir/depend
 

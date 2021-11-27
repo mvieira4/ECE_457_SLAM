@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ros/ros_workspace/install/setup.sh
+    local-name: /home/ros/ECE_457_SLAM/navigation/ros_workspace/install/setup.sh

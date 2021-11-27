@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/ros_workspace/src/map_navigation_pkg
+# Install script for directory: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/map_navigation_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/ros_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/ECE_457_SLAM/navigation/ros_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ros_workspace/build/map_navigation_pkg/catkin_generated/installspace/map_navigation_pkg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/map_navigation_pkg/catkin_generated/installspace/map_navigation_pkg.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_navigation_pkg/cmake" TYPE FILE FILES
-    "/home/ros/ros_workspace/build/map_navigation_pkg/catkin_generated/installspace/map_navigation_pkgConfig.cmake"
-    "/home/ros/ros_workspace/build/map_navigation_pkg/catkin_generated/installspace/map_navigation_pkgConfig-version.cmake"
+    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/map_navigation_pkg/catkin_generated/installspace/map_navigation_pkgConfig.cmake"
+    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/map_navigation_pkg/catkin_generated/installspace/map_navigation_pkgConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_navigation_pkg" TYPE FILE FILES "/home/ros/ros_workspace/src/map_navigation_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_navigation_pkg" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/map_navigation_pkg/package.xml")
 endif()
 

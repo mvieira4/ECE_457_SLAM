@@ -1,4 +1,4 @@
-prefix=/home/ros/ros_workspace/install
+prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/install
 
 Name: map_navigation_pkg
 Description: Description of map_navigation_pkg

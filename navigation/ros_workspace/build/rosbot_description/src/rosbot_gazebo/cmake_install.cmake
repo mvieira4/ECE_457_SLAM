@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/ros_workspace/src/rosbot_description/src/rosbot_gazebo
+# Install script for directory: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_description/src/rosbot_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/ros_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/ECE_457_SLAM/navigation/ros_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,25 +33,25 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_gazebo/catkin_generated/installspace/rosbot_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/rosbot_description/src/rosbot_gazebo/catkin_generated/installspace/rosbot_gazebo.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_gazebo/cmake" TYPE FILE FILES
-    "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_gazebo/catkin_generated/installspace/rosbot_gazeboConfig.cmake"
-    "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_gazebo/catkin_generated/installspace/rosbot_gazeboConfig-version.cmake"
+    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/rosbot_description/src/rosbot_gazebo/catkin_generated/installspace/rosbot_gazeboConfig.cmake"
+    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/rosbot_description/src/rosbot_gazebo/catkin_generated/installspace/rosbot_gazeboConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_gazebo" TYPE FILE FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_gazebo" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_description/src/rosbot_gazebo/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_gazebo" TYPE DIRECTORY FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_gazebo/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_gazebo" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_description/src/rosbot_gazebo/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_gazebo" TYPE DIRECTORY FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_gazebo/worlds")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_gazebo" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_description/src/rosbot_gazebo/worlds")
 endif()
 

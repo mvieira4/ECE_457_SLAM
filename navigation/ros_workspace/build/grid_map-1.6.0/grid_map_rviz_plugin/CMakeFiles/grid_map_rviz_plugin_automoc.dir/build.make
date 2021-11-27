@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ros_workspace/src
+CMAKE_SOURCE_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ros_workspace/build
+CMAKE_BINARY_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/build
 
 # Utility rule file for grid_map_rviz_plugin_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/ros/ros_workspace/build
 include grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/progress.make
 
 grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target grid_map_rviz_plugin"
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/ ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target grid_map_rviz_plugin"
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/ ""
 
 grid_map_rviz_plugin_automoc: grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc
 grid_map_rviz_plugin_automoc: grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/build.make
@@ -68,10 +68,10 @@ grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/
 .PHONY : grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/build
 
 grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/clean:
-	cd /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/grid_map_rviz_plugin_automoc.dir/cmake_clean.cmake
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/grid_map_rviz_plugin_automoc.dir/cmake_clean.cmake
 .PHONY : grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/clean
 
 grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/depend:
-	cd /home/ros/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ros_workspace/src /home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_rviz_plugin /home/ros/ros_workspace/build /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ECE_457_SLAM/navigation/ros_workspace/src /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_rviz_plugin /home/ros/ECE_457_SLAM/navigation/ros_workspace/build /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin_automoc.dir/depend
 

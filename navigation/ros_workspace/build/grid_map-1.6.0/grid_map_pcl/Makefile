@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ros_workspace/src
+CMAKE_SOURCE_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ros_workspace/build
+CMAKE_BINARY_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/ros_workspace/build/CMakeFiles /home/ros/ros_workspace/build/grid_map-1.6.0/grid_map_pcl/CMakeFiles/progress.marks
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/ros_workspace/build/CMakeFiles 0
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/grid_map-1.6.0/grid_map_pcl/CMakeFiles/progress.marks
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/clean
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/preinstall
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/preinstall
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros/ros_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ grid_map_pcl: grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/rule
 
 # fast build rule for target.
 grid_map_pcl/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build
 .PHONY : grid_map_pcl/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ pcl_msgs_generate_messages_py: grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_g
 
 # fast build rule for target.
 pcl_msgs_generate_messages_py/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
 .PHONY : pcl_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ nodelet_generate_messages_lisp: grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_g
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ dynamic_reconfigure_generate_messages_py: grid_map-1.6.0/grid_map_pcl/CMakeFiles
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ bond_generate_messages_nodejs: grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_gener
 
 # fast build rule for target.
 bond_generate_messages_nodejs/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_nodejs.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_nodejs.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_nodejs.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_nodejs.dir/build
 .PHONY : bond_generate_messages_nodejs/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ nodelet_generate_messages_eus: grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_ge
 
 # fast build rule for target.
 nodelet_generate_messages_eus/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_eus.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_eus.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_eus.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_eus.dir/build
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ pcl_msgs_generate_messages_nodejs: grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ms
 
 # fast build rule for target.
 pcl_msgs_generate_messages_nodejs/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build
 .PHONY : pcl_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ nodelet_generate_messages_cpp: grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_ge
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ dynamic_reconfigure_generate_messages_nodejs: grid_map-1.6.0/grid_map_pcl/CMakeF
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ dynamic_reconfigure_gencfg: grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_recon
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_py.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_py.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ bond_generate_messages_py: grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_py.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_py.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_py.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_py.dir/build
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ dynamic_reconfigure_generate_messages_cpp: grid_map-1.6.0/grid_map_pcl/CMakeFile
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ros_gencfg.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ros_gencfg.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ros_gencfg.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ros_gencfg.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ pcl_ros_gencfg: grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ros_gencfg.dir/rule
 
 # fast build rule for target.
 pcl_ros_gencfg/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ros_gencfg.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ros_gencfg.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ros_gencfg.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_ros_gencfg.dir/build
 .PHONY : pcl_ros_gencfg/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ dynamic_reconfigure_generate_messages_lisp: grid_map-1.6.0/grid_map_pcl/CMakeFil
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ dynamic_reconfigure_generate_messages_eus: grid_map-1.6.0/grid_map_pcl/CMakeFile
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ nodelet_generate_messages_nodejs: grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet
 
 # fast build rule for target.
 nodelet_generate_messages_nodejs/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
 .PHONY : nodelet_generate_messages_nodejs/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_py.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_py.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ nodelet_generate_messages_py: grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_gen
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_py.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_py.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_py.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_generate_messages_py.dir/build
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_cpp.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_cpp.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ bond_generate_messages_cpp: grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_cpp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_cpp.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_cpp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_cpp.dir/build
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_eus.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_eus.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ bond_generate_messages_eus: grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate
 
 # fast build rule for target.
 bond_generate_messages_eus/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_eus.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_eus.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_eus.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_eus.dir/build
 .PHONY : bond_generate_messages_eus/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ pcl_msgs_generate_messages_cpp: grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_
 
 # fast build rule for target.
 pcl_msgs_generate_messages_cpp/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
 .PHONY : pcl_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_lisp.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_lisp.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ bond_generate_messages_lisp: grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generat
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_lisp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_lisp.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_lisp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ nodelet_topic_tools_gencfg: grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_topic
 
 # fast build rule for target.
 nodelet_topic_tools_gencfg/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_topic_tools_gencfg.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_topic_tools_gencfg.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_topic_tools_gencfg.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/nodelet_topic_tools_gencfg.dir/build
 .PHONY : nodelet_topic_tools_gencfg/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_eus.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_eus.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_eus.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ pcl_msgs_generate_messages_eus: grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_
 
 # fast build rule for target.
 pcl_msgs_generate_messages_eus/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build
 .PHONY : pcl_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
 .PHONY : grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -522,7 +522,7 @@ pcl_msgs_generate_messages_lisp: grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs
 
 # fast build rule for target.
 pcl_msgs_generate_messages_lisp/fast:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
 .PHONY : pcl_msgs_generate_messages_lisp/fast
 
 src/GridMapPclConverter.o: src/GridMapPclConverter.cpp.o
@@ -531,7 +531,7 @@ src/GridMapPclConverter.o: src/GridMapPclConverter.cpp.o
 
 # target to build an object file
 src/GridMapPclConverter.cpp.o:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.o
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.o
 .PHONY : src/GridMapPclConverter.cpp.o
 
 src/GridMapPclConverter.i: src/GridMapPclConverter.cpp.i
@@ -540,7 +540,7 @@ src/GridMapPclConverter.i: src/GridMapPclConverter.cpp.i
 
 # target to preprocess a source file
 src/GridMapPclConverter.cpp.i:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.i
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.i
 .PHONY : src/GridMapPclConverter.cpp.i
 
 src/GridMapPclConverter.s: src/GridMapPclConverter.cpp.s
@@ -549,7 +549,7 @@ src/GridMapPclConverter.s: src/GridMapPclConverter.cpp.s
 
 # target to generate assembly for a file
 src/GridMapPclConverter.cpp.s:
-	cd /home/ros/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.s
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/build.make grid_map-1.6.0/grid_map_pcl/CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.s
 .PHONY : src/GridMapPclConverter.cpp.s
 
 # Help Target
@@ -603,6 +603,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros/ros_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

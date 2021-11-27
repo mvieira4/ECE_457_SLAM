@@ -1,4 +1,4 @@
-prefix=/home/ros/ros_workspace/devel
+prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel
 
 Name: rosbot_description
 Description: Description of rosbot_description

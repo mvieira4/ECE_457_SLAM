@@ -1,8 +1,8 @@
-prefix=/home/ros/ros_workspace/devel
+prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel
 
 Name: grid_map_costmap_2d
 Description: Description of grid_map_costmap_2d
 Version: 1.6.0
-Cflags: -I/home/ros/ros_workspace/src/grid_map-1.6.0/grid_map_costmap_2d/include
+Cflags: -I/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_costmap_2d/include
 Libs: -L${prefix}/lib 
 Requires: grid_map_core costmap_2d tf

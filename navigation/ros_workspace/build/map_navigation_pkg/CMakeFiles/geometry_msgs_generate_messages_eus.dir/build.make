@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/ros_workspace/src
+CMAKE_SOURCE_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/ros_workspace/build
+CMAKE_BINARY_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/build
 
 # Utility rule file for geometry_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ map_navigation_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build: geo
 .PHONY : map_navigation_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 
 map_navigation_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	cd /home/ros/ros_workspace/build/map_navigation_pkg && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/map_navigation_pkg && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : map_navigation_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 map_navigation_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend:
-	cd /home/ros/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ros_workspace/src /home/ros/ros_workspace/src/map_navigation_pkg /home/ros/ros_workspace/build /home/ros/ros_workspace/build/map_navigation_pkg /home/ros/ros_workspace/build/map_navigation_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/ECE_457_SLAM/navigation/ros_workspace/src /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/map_navigation_pkg /home/ros/ECE_457_SLAM/navigation/ros_workspace/build /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/map_navigation_pkg /home/ros/ECE_457_SLAM/navigation/ros_workspace/build/map_navigation_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : map_navigation_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 

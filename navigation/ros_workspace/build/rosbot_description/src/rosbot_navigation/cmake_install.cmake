@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/ros_workspace/src/rosbot_description/src/rosbot_navigation
+# Install script for directory: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_description/src/rosbot_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/ros_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/ECE_457_SLAM/navigation/ros_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,29 +33,29 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_navigation/catkin_generated/installspace/rosbot_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/rosbot_description/src/rosbot_navigation/catkin_generated/installspace/rosbot_navigation.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_navigation/cmake" TYPE FILE FILES
-    "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_navigation/catkin_generated/installspace/rosbot_navigationConfig.cmake"
-    "/home/ros/ros_workspace/build/rosbot_description/src/rosbot_navigation/catkin_generated/installspace/rosbot_navigationConfig-version.cmake"
+    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/rosbot_description/src/rosbot_navigation/catkin_generated/installspace/rosbot_navigationConfig.cmake"
+    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/rosbot_description/src/rosbot_navigation/catkin_generated/installspace/rosbot_navigationConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_navigation" TYPE FILE FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_navigation" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_description/src/rosbot_navigation/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_navigation" TYPE DIRECTORY FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_navigation/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_navigation" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_description/src/rosbot_navigation/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_navigation" TYPE DIRECTORY FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_navigation/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_navigation" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_description/src/rosbot_navigation/config")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_navigation" TYPE DIRECTORY FILES "/home/ros/ros_workspace/src/rosbot_description/src/rosbot_navigation/maps")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosbot_navigation" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_description/src/rosbot_navigation/maps")
 endif()
 

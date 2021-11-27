@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/grid_map_ros.dir/src/GridMapRosConverter.cpp.o"
   "CMakeFiles/grid_map_ros.dir/src/GridMapMsgHelpers.cpp.o"
   "CMakeFiles/grid_map_ros.dir/src/PolygonRosConverter.cpp.o"
-  "/home/ros/ros_workspace/devel/lib/libgrid_map_ros.pdb"
-  "/home/ros/ros_workspace/devel/lib/libgrid_map_ros.so"
+  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/libgrid_map_ros.pdb"
+  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/libgrid_map_ros.so"
 )
 
 # Per-language clean rules from dependency scanning.
