@@ -1,11 +1,14 @@
 <launch>
 
     <arg name="rosbot_pro" default="true" />
-    <arg name="use_gazebo" default="false" />
+    <arg name="use_gazebo" default="true" />
     <arg name="teach" default="false"/>
+    <arg name="test_num" default="0"/>
 
-    <arg if="$(arg teach)" name="chosen_world" value="rosbot_world_teaching"/>
-    <arg unless="$(arg teach)" name="chosen_world" value="rosbot_world_recognition"/>
+    <arg if="$(eval (test_num==0))" name="chosen_world" value="rosbot_world_teaching"/>
+    <arg if="$(eval (test_num)==1)" name="chosen_world" value="rosbot_world_recognition"/>
+    <arg if="$(eval (test_num==2))" name="chosen_world" value="rosbot_world_teaching"/>
+    <arg if="$(eval (test_num)==3)" name="chosen_world" value="rosbot_world_recognition"/>
 
     <!-- Gazebo -->
     <group if="$(arg use_gazebo)">
@@ -20,7 +23,7 @@
             <arg name="rosbot_pro" value="$(arg rosbot_pro)" />
         </include>
 
-        <include unless="$(arg use_gazebo)" file="$(find astra_launch)/launch/astra.launch"/>
+        <include file="$(find astra_launch)/launch/astra.launch"/>
     </group>
 
     <node unless="$(arg use_gazebo)" pkg="tf" type="static_transform_publisher" name="camera_publisher" args="-0.03 0 0.18 0 0 0 base_link camera_link 100" />
