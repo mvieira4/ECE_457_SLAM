@@ -503,6 +503,19 @@ action_controller_node/fast:
 	$(MAKE) -f tutorial_pkg/CMakeFiles/action_controller_node.dir/build.make tutorial_pkg/CMakeFiles/action_controller_node.dir/build
 .PHONY : action_controller_node/fast
 
+#=============================================================================
+# Target rules for targets named _catkin_empty_exported_target
+
+# Build rule for target.
+_catkin_empty_exported_target: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
+.PHONY : _catkin_empty_exported_target
+
+# fast build rule for target.
+_catkin_empty_exported_target/fast:
+	$(MAKE) -f rosbot_description/src/rosbot_navigation/CMakeFiles/_catkin_empty_exported_target.dir/build.make rosbot_description/src/rosbot_navigation/CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -542,6 +555,7 @@ help:
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... action_controller_node"
+	@echo "... _catkin_empty_exported_target"
 .PHONY : help
 
 

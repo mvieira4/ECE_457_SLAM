@@ -1,0 +1,43 @@
+<launch>
+
+    <arg name="rosbot_pro" default="true" />
+    <arg name="use_gazebo" default="true" />
+    <arg name="teach" default="false"/>
+    <arg name="test_num" default="1"/>
+
+    <arg if="$(eval (test_num==1))" name="chosen_world" value="test1"/>
+    <arg if="$(eval (test_num==2))" name="chosen_world" value="test2"/>
+    <arg if="$(eval (test_num==3))" name="chosen_world" value="test3"/>
+    <arg if="$(eval (test_num==4))" name="chosen_world" value="test4"/>
+
+    <!-- Gazebo -->
+    <group if="$(arg use_gazebo)">
+        <include file="$(find rosbot_gazebo)/launch/$(arg chosen_world).launch"/>
+        <include file="$(find rosbot_description)/launch/rosbot_gazebo.launch"/>
+            <param name="use_sim_time" value="true"/>
+    </group>
+
+    <!-- ROSbot 2.0 -->
+    <group unless="$(arg use_gazebo)">
+        <include file="$(find rosbot_ekf)/launch/all.launch">
+            <arg name="rosbot_pro" value="$(arg rosbot_pro)"/>
+        </include>
+
+        <include file="$(find astra_launch)/launch/astra.launch"/>
+
+        <node pkg="tf" type="static_transform_publisher" name="camera_publisher" args="-0.03 0 0.18 0 0 0 base_link camera_link 100" />
+    </group>
+
+    
+
+    <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen"/>
+
+    <node pkg="find_object_2d" type="find_object_2d" name="find_object_2d">
+        <remap from="image" to="/camera/rgb/image_raw"/>
+        <param name="gui" value="true"/>
+        <param name="objects_path" value="$(find test_pkg)/image_rec/"/>
+    </node>
+
+    <node pkg="test-env" type="action_controller_node" name="action_controller" output="screen"/>
+
+</launch>
