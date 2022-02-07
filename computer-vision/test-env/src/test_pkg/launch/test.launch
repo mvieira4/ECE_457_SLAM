@@ -9,6 +9,8 @@
     <arg if="$(eval (test_num==2))" name="chosen_world" value="test2"/>
     <arg if="$(eval (test_num==3))" name="chosen_world" value="test3"/>
     <arg if="$(eval (test_num==4))" name="chosen_world" value="test4"/>
+    <arg if="$(eval (test_num==5))" name="chosen_world" value="test5"/>
+    <arg if="$(eval (test_num==6))" name="chosen_world" value="test6"/>
 
     <!-- Gazebo -->
     <group if="$(arg use_gazebo)">
@@ -38,6 +40,6 @@
         <param name="objects_path" value="$(find test_pkg)/image_rec/"/>
     </node>
 
-    <node pkg="test-env" type="action_controller_node" name="action_controller" output="screen"/>
+    <node pkg="test_pkg" type="action_controller_node" name="action_controller" output="screen"/>
 
 </launch>
