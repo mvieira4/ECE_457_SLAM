@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/ros_test_workspace/install/setup.sh
