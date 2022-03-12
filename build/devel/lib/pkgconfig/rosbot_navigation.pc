@@ -1,8 +1,0 @@
-prefix=/home/ros/ECE_457_SLAM/build/devel
-
-Name: rosbot_navigation
-Description: Description of rosbot_navigation
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

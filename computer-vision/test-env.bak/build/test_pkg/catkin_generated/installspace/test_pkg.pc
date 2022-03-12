@@ -1,8 +1,0 @@
-prefix=/home/ros/ECE_457_SLAM/computer-vision/test-env/install
-
-Name: test_pkg
-Description: Description of test_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

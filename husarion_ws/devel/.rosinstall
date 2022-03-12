@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/vagrant/ECE_457_SLAM/devel/setup.sh

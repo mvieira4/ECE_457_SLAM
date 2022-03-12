@@ -1,2 +1,0 @@
-rosbot_description/src/rosbot_description:rosbot_description/src/rosbot_gazebo:rosbot_description/src/rosbot_navigation:test_pkg
--DCATKIN_DEVEL_PREFIX=/home/ros/ECE_457_SLAM/computer-vision/test-env/devel -DCMAKE_INSTALL_PREFIX=/home/ros/ECE_457_SLAM/computer-vision/test-env/install -G Unix Makefiles
