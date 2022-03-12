@@ -4,17 +4,11 @@
     <arg name="use_gazebo" default="true" />
     <arg name="teach" default="false"/>
     <arg name="test_num" default="1"/>
-
-    <arg if="$(eval (test_num==1))" name="chosen_world" value="test1"/>
-    <arg if="$(eval (test_num==2))" name="chosen_world" value="test2"/>
-    <arg if="$(eval (test_num==3))" name="chosen_world" value="test3"/>
-    <arg if="$(eval (test_num==4))" name="chosen_world" value="test4"/>
-    <arg if="$(eval (test_num==5))" name="chosen_world" value="test5"/>
-    <arg if="$(eval (test_num==6))" name="chosen_world" value="test6"/>
+    <arg name="chosen_world" value="comp_vis$(arg test_num)"/>
 
     <!-- Gazebo -->
     <group if="$(arg use_gazebo)">
-        <include file="$(find rosbot_gazebo)/launch/$(arg chosen_world).launch"/>
+        <include file="$(find comp_vis_pkg)/comp_vis_test_env/launch/$(arg chosen_world).launch"/>
         <include file="$(find rosbot_description)/launch/rosbot_gazebo.launch"/>
             <param name="use_sim_time" value="true"/>
     </group>
