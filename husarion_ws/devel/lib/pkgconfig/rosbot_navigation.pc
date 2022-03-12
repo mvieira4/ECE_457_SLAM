@@ -1,4 +1,4 @@
-prefix=/home/vagrant/ECE_457_SLAM/devel
+prefix=/home/vagrant/ECE_457_SLAM/husarion_ws/devel
 
 Name: rosbot_navigation
 Description: Description of rosbot_navigation
