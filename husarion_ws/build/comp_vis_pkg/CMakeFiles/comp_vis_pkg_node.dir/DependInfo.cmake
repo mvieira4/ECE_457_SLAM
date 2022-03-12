@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/tutorial_pkg_node.cpp" "/home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.o"
+  "/home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/comp_vis_controller.cpp" "/home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

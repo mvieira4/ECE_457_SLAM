@@ -57,27 +57,27 @@ include comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/flags.make
 
-comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.o: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/flags.make
-comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.o: /home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/tutorial_pkg_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.o"
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.o -c /home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/tutorial_pkg_node.cpp
+comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.o: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/flags.make
+comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.o: /home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/comp_vis_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.o"
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.o -c /home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/comp_vis_controller.cpp
 
-comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.i"
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/tutorial_pkg_node.cpp > CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.i
+comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.i"
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/comp_vis_controller.cpp > CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.i
 
-comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.s"
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/tutorial_pkg_node.cpp -o CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.s
+comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.s"
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vagrant/ECE_457_SLAM/husarion_ws/src/comp_vis_pkg/src/comp_vis_controller.cpp -o CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.s
 
 # Object files for target comp_vis_pkg_node
 comp_vis_pkg_node_OBJECTS = \
-"CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.o"
+"CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.o"
 
 # External object files for target comp_vis_pkg_node
 comp_vis_pkg_node_EXTERNAL_OBJECTS =
 
-/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.o
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.o
 /home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make
 /home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /opt/ros/noetic/lib/libroscpp.so
 /home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libpthread.so
@@ -96,6 +96,54 @@ comp_vis_pkg_node_EXTERNAL_OBJECTS =
 /home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 /home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
+/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 /home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/comp_vis_pkg/comp_vis_pkg_node"
 	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/comp_vis_pkg_node.dir/link.txt --verbose=$(VERBOSE)

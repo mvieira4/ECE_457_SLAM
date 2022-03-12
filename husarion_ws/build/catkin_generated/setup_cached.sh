@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD='/home/vagrant/ECE_457_SLAM/husarion_ws/build'
-export ROS_PACKAGE_PATH='/home/ros/ECE_457_SLAM/computer-vision/test-env/src:/home/vagrant/ECE_457_SLAM/src:/home/vagrant/ECE_457_SLAM/husarion_ws/src:/home/vagrant/ros_workspace/src:/opt/ros/noetic/share'

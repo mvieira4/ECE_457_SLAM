@@ -168,21 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule
-.PHONY : comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule
-
-# Convenience name for target.
-comp_vis_controller_node: comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule
-
-.PHONY : comp_vis_controller_node
-
-# fast build rule for target.
-comp_vis_controller_node/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build
-.PHONY : comp_vis_controller_node/fast
-
-# Convenience name for target.
 comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule:
 	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule
 .PHONY : comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule
@@ -428,7 +413,7 @@ src/comp_vis_controller.o: src/comp_vis_controller.cpp.o
 
 # target to build an object file
 src/comp_vis_controller.cpp.o:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/src/comp_vis_controller.cpp.o
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.o
 .PHONY : src/comp_vis_controller.cpp.o
 
 src/comp_vis_controller.i: src/comp_vis_controller.cpp.i
@@ -437,7 +422,7 @@ src/comp_vis_controller.i: src/comp_vis_controller.cpp.i
 
 # target to preprocess a source file
 src/comp_vis_controller.cpp.i:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/src/comp_vis_controller.cpp.i
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.i
 .PHONY : src/comp_vis_controller.cpp.i
 
 src/comp_vis_controller.s: src/comp_vis_controller.cpp.s
@@ -446,35 +431,8 @@ src/comp_vis_controller.s: src/comp_vis_controller.cpp.s
 
 # target to generate assembly for a file
 src/comp_vis_controller.cpp.s:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/src/comp_vis_controller.cpp.s
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.s
 .PHONY : src/comp_vis_controller.cpp.s
-
-src/tutorial_pkg_node.o: src/tutorial_pkg_node.cpp.o
-
-.PHONY : src/tutorial_pkg_node.o
-
-# target to build an object file
-src/tutorial_pkg_node.cpp.o:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.o
-.PHONY : src/tutorial_pkg_node.cpp.o
-
-src/tutorial_pkg_node.i: src/tutorial_pkg_node.cpp.i
-
-.PHONY : src/tutorial_pkg_node.i
-
-# target to preprocess a source file
-src/tutorial_pkg_node.cpp.i:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.i
-.PHONY : src/tutorial_pkg_node.cpp.i
-
-src/tutorial_pkg_node.s: src/tutorial_pkg_node.cpp.s
-
-.PHONY : src/tutorial_pkg_node.s
-
-# target to generate assembly for a file
-src/tutorial_pkg_node.cpp.s:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/tutorial_pkg_node.cpp.s
-.PHONY : src/tutorial_pkg_node.cpp.s
 
 # Help Target
 help:
@@ -486,7 +444,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... comp_vis_controller_node"
 	@echo "... comp_vis_pkg_node"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
@@ -509,9 +466,6 @@ help:
 	@echo "... src/comp_vis_controller.o"
 	@echo "... src/comp_vis_controller.i"
 	@echo "... src/comp_vis_controller.s"
-	@echo "... src/tutorial_pkg_node.o"
-	@echo "... src/tutorial_pkg_node.i"
-	@echo "... src/tutorial_pkg_node.s"
 .PHONY : help
 
 

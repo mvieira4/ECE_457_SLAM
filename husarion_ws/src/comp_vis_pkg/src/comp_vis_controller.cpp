@@ -37,7 +37,7 @@ void distFR_callback(const sensor_msgs::Range &range)
 
 void objectCallback(const std_msgs::Float32MultiArrayPtr &object)
 {
-   if (object->data.size() > 0)
+   /*if (object->data.size() > 0)
    {
       id = object->data[0];
 
@@ -135,7 +135,7 @@ void objectCallback(const std_msgs::Float32MultiArrayPtr &object)
       set_vel.linear.x = 0;
       set_vel.angular.z = 0;
       action_pub.publish(set_vel);
-   }
+   }*/
 }
 
 int main(int argc, char **argv)
