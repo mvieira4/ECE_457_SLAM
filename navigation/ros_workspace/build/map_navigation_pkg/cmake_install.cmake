@@ -32,18 +32,3 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/map_navigation_pkg/catkin_generated/installspace/map_navigation_pkg.pc")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_navigation_pkg/cmake" TYPE FILE FILES
-    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/map_navigation_pkg/catkin_generated/installspace/map_navigation_pkgConfig.cmake"
-    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/map_navigation_pkg/catkin_generated/installspace/map_navigation_pkgConfig-version.cmake"
-    )
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_navigation_pkg" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/map_navigation_pkg/package.xml")
-endif()
-
