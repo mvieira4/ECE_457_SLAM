@@ -7,10 +7,6 @@
 #include <sensor_msgs/Range.h>
 #include <stdio.h>
 
-#define SPEED 1
-#define CAN 2
-#define STOP 3
-
 int id = 0;
 ros::Publisher action_pub;
 geometry_msgs::Twist set_vel;
@@ -140,7 +136,6 @@ void objectCallback(const std_msgs::Float32MultiArrayPtr &object)
 
 int main(int argc, char **argv)
 {
-
    std_msgs::String s;
    std::string str;
    str.clear();

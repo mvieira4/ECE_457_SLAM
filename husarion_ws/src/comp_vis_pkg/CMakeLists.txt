@@ -20,9 +20,9 @@ include_directories(
     ${OpenCV_INCLUDE_DIRS}
 )
 
-add_executable(${PROJECT_NAME}_node src/comp_vis_controller.cpp)
+add_executable(comp_vis_controller_node src/comp_vis_controller.cpp)
 
-target_link_libraries(${PROJECT_NAME}_node
+target_link_libraries(comp_vis_controller_node
   ${catkin_LIBRARIES}
   ${OpenCV_LIBRARIES}
 )

@@ -168,19 +168,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule
-.PHONY : comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule
+comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule
+.PHONY : comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule
 
 # Convenience name for target.
-comp_vis_pkg_node: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule
+comp_vis_controller_node: comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule
 
-.PHONY : comp_vis_pkg_node
+.PHONY : comp_vis_controller_node
 
 # fast build rule for target.
-comp_vis_pkg_node/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build
-.PHONY : comp_vis_pkg_node/fast
+comp_vis_controller_node/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build
+.PHONY : comp_vis_controller_node/fast
 
 # Convenience name for target.
 comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
@@ -413,7 +413,7 @@ src/comp_vis_controller.o: src/comp_vis_controller.cpp.o
 
 # target to build an object file
 src/comp_vis_controller.cpp.o:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.o
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/src/comp_vis_controller.cpp.o
 .PHONY : src/comp_vis_controller.cpp.o
 
 src/comp_vis_controller.i: src/comp_vis_controller.cpp.i
@@ -422,7 +422,7 @@ src/comp_vis_controller.i: src/comp_vis_controller.cpp.i
 
 # target to preprocess a source file
 src/comp_vis_controller.cpp.i:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.i
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/src/comp_vis_controller.cpp.i
 .PHONY : src/comp_vis_controller.cpp.i
 
 src/comp_vis_controller.s: src/comp_vis_controller.cpp.s
@@ -431,7 +431,7 @@ src/comp_vis_controller.s: src/comp_vis_controller.cpp.s
 
 # target to generate assembly for a file
 src/comp_vis_controller.cpp.s:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/src/comp_vis_controller.cpp.s
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/src/comp_vis_controller.cpp.s
 .PHONY : src/comp_vis_controller.cpp.s
 
 # Help Target
@@ -444,7 +444,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... comp_vis_pkg_node"
+	@echo "... comp_vis_controller_node"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"

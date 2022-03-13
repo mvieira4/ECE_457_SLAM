@@ -88,7 +88,7 @@ clean: rosbot_description/src/rosbot_gazebo/clean
 # Directory level rules for directory comp_vis_pkg
 
 # Recursive "all" directory target.
-comp_vis_pkg/all: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/all
+comp_vis_pkg/all: comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/all
 
 .PHONY : comp_vis_pkg/all
 
@@ -98,7 +98,7 @@ comp_vis_pkg/preinstall:
 .PHONY : comp_vis_pkg/preinstall
 
 # Recursive "clean" directory target.
-comp_vis_pkg/clean: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/clean
+comp_vis_pkg/clean: comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/clean
 comp_vis_pkg/clean: comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 comp_vis_pkg/clean: comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 comp_vis_pkg/clean: comp_vis_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
@@ -473,31 +473,31 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
 
 #=============================================================================
-# Target rules for target comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir
+# Target rules for target comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir
 
 # All Build rule for target.
-comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/all:
-	$(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/depend
-	$(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles --progress-num=1,2 "Built target comp_vis_pkg_node"
-.PHONY : comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/all
+comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/all:
+	$(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/depend
+	$(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles --progress-num=1,2 "Built target comp_vis_controller_node"
+.PHONY : comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/all
 
 # Build rule for subdir invocation for target.
-comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule: cmake_check_build_system
+comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles 0
-.PHONY : comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule
+.PHONY : comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule
 
 # Convenience name for target.
-comp_vis_pkg_node: comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/rule
+comp_vis_controller_node: comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/rule
 
-.PHONY : comp_vis_pkg_node
+.PHONY : comp_vis_controller_node
 
 # clean rule for target.
-comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/clean:
-	$(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/clean
-.PHONY : comp_vis_pkg/CMakeFiles/comp_vis_pkg_node.dir/clean
+comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/clean:
+	$(MAKE) -f comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/build.make comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/clean
+.PHONY : comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir/clean
 
 #=============================================================================
 # Target rules for target comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_py.dir
