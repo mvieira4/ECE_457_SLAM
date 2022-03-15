@@ -56,6 +56,16 @@ CMAKE_BINARY_DIR = /home/ros/ECE_457_SLAM/navigation/ros_workspace/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -90,26 +100,16 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target test
-test/fast: test
+# Special rule for the target install/local
+install/local/fast: install/local
 
-.PHONY : test/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
+.PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -122,16 +122,16 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target install/local
-install/local/fast: install/local
+# Special rule for the target test
+test/fast: test
 
-.PHONY : install/local/fast
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -164,81 +164,6 @@ preinstall/fast:
 depend:
 	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-# Convenience name for target.
-grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
-.PHONY : grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_lisp: grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : map_msgs_generate_messages_lisp
-
-# fast build rule for target.
-map_msgs_generate_messages_lisp/fast:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
-.PHONY : map_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_eus.dir/rule:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
-.PHONY : grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_eus: grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
-
-.PHONY : map_msgs_generate_messages_eus
-
-# fast build rule for target.
-map_msgs_generate_messages_eus/fast:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_eus.dir/build
-.PHONY : map_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
-.PHONY : grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_nodejs: grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : map_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-map_msgs_generate_messages_nodejs/fast:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
-.PHONY : map_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
-.PHONY : grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_cpp: grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : map_msgs_generate_messages_cpp
-
-# fast build rule for target.
-map_msgs_generate_messages_cpp/fast:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
-.PHONY : map_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_py.dir/rule:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_py.dir/rule
-.PHONY : grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_py: grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_py.dir/rule
-
-.PHONY : map_msgs_generate_messages_py
-
-# fast build rule for target.
-map_msgs_generate_messages_py/fast:
-	cd /home/ros/ECE_457_SLAM/navigation/ros_workspace/build && $(MAKE) -f grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_py.dir/build.make grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/map_msgs_generate_messages_py.dir/build
-.PHONY : map_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 grid_map-1.6.0/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin.dir/rule:
@@ -384,19 +309,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install"
-	@echo "... map_msgs_generate_messages_lisp"
-	@echo "... rebuild_cache"
-	@echo "... map_msgs_generate_messages_eus"
-	@echo "... edit_cache"
-	@echo "... map_msgs_generate_messages_nodejs"
-	@echo "... test"
-	@echo "... map_msgs_generate_messages_cpp"
-	@echo "... map_msgs_generate_messages_py"
-	@echo "... grid_map_rviz_plugin"
 	@echo "... list_install_components"
-	@echo "... install/strip"
+	@echo "... install"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... grid_map_rviz_plugin"
 	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... test"
 	@echo "... grid_map_rviz_plugin_automoc"
 	@echo "... grid_map_rviz_plugin_automoc.o"
 	@echo "... grid_map_rviz_plugin_automoc.i"

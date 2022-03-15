@@ -1,0 +1,8 @@
+prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/install
+
+Name: robot_pose_ekf
+Description: Description of robot_pose_ekf
+Version: 1.14.9
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime nav_msgs roscpp sensor_msgs std_msgs
