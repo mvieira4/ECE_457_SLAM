@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/vagrant/ECE_457_SLAM/husarion_ws/build/gtest/cmake_install.cmake")
   include("/home/vagrant/ECE_457_SLAM/husarion_ws/build/comp_vis_pkg/cmake_install.cmake")
+  include("/home/vagrant/ECE_457_SLAM/husarion_ws/build/rosbot_ekf/cmake_install.cmake")
   include("/home/vagrant/ECE_457_SLAM/husarion_ws/build/rosbot_description/src/rosbot_navigation/cmake_install.cmake")
   include("/home/vagrant/ECE_457_SLAM/husarion_ws/build/rosbot_description/src/rosbot_description/cmake_install.cmake")
   include("/home/vagrant/ECE_457_SLAM/husarion_ws/build/rosbot_description/src/rosbot_gazebo/cmake_install.cmake")
