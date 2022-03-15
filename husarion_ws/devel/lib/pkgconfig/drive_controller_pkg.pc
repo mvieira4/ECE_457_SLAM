@@ -1,0 +1,8 @@
+prefix=/home/ros/ECE_457_SLAM/husarion_ws/devel
+
+Name: drive_controller_pkg
+Description: Description of drive_controller_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

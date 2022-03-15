@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/ECE_457_SLAM/husarion_ws/install/setup.sh
