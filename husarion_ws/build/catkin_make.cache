@@ -1,2 +1,2 @@
-comp_vis_pkg:ros_astra_launch:rosbot_description/src/rosbot_description:rosbot_description/src/rosbot_gazebo:rosbot_description/src/rosbot_navigation:rosbot_ekf
+comp_vis_pkg:astra_launch:rosbot_description/src/rosbot_description:rosbot_description/src/rosbot_gazebo:rosbot_description/src/rosbot_navigation:rosbot_ekf
 -DCATKIN_DEVEL_PREFIX=/home/vagrant/ECE_457_SLAM/husarion_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vagrant/ECE_457_SLAM/husarion_ws/install -G Unix Makefiles

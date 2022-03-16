@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles /home/vagrant/ECE_457_SLAM/husarion_ws/build/ros_astra_launch/CMakeFiles/progress.marks
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_astra_launch/all
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles /home/vagrant/ECE_457_SLAM/husarion_ws/build/astra_launch/CMakeFiles/progress.marks
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 astra_launch/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_astra_launch/clean
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 astra_launch/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,12 +154,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_astra_launch/preinstall
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 astra_launch/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_astra_launch/preinstall
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 astra_launch/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -168,18 +168,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 .PHONY : _catkin_empty_exported_target
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target

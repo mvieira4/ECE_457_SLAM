@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vagrant/ECE_457_SLAM/husarion_ws/build
 
 # The main recursive "all" target.
 all: gtest/all
-all: ros_astra_launch/all
+all: astra_launch/all
 all: comp_vis_pkg/all
 all: rosbot_ekf/all
 all: rosbot_description/src/rosbot_navigation/all
@@ -65,7 +65,7 @@ all: rosbot_description/src/rosbot_gazebo/all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
-preinstall: ros_astra_launch/preinstall
+preinstall: astra_launch/preinstall
 preinstall: comp_vis_pkg/preinstall
 preinstall: rosbot_ekf/preinstall
 preinstall: rosbot_description/src/rosbot_navigation/preinstall
@@ -81,7 +81,7 @@ clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
-clean: ros_astra_launch/clean
+clean: astra_launch/clean
 clean: comp_vis_pkg/clean
 clean: rosbot_ekf/clean
 clean: rosbot_description/src/rosbot_navigation/clean
@@ -181,22 +181,22 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/clean
 
 #=============================================================================
-# Directory level rules for directory ros_astra_launch
+# Directory level rules for directory astra_launch
 
 # Recursive "all" directory target.
-ros_astra_launch/all:
+astra_launch/all:
 
-.PHONY : ros_astra_launch/all
+.PHONY : astra_launch/all
 
 # Recursive "preinstall" directory target.
-ros_astra_launch/preinstall:
+astra_launch/preinstall:
 
-.PHONY : ros_astra_launch/preinstall
+.PHONY : astra_launch/preinstall
 
 # Recursive "clean" directory target.
-ros_astra_launch/clean: ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/clean
+astra_launch/clean: astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
-.PHONY : ros_astra_launch/clean
+.PHONY : astra_launch/clean
 
 #=============================================================================
 # Directory level rules for directory rosbot_description/src/rosbot_description
@@ -567,31 +567,31 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
 
 #=============================================================================
-# Target rules for target ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir
+# Target rules for target astra_launch/CMakeFiles/_catkin_empty_exported_target.dir
 
 # All Build rule for target.
-ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
+astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
+.PHONY : astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
-ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles 0
-.PHONY : ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 .PHONY : _catkin_empty_exported_target
 
 # clean rule for target.
-ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/clean
+astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Target rules for target comp_vis_pkg/CMakeFiles/comp_vis_controller_node.dir
@@ -1496,7 +1496,7 @@ rosbot_ekf/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
 # Target rules for target rosbot_ekf/CMakeFiles/msgs_conversion.dir
 
 # All Build rule for target.
-rosbot_ekf/CMakeFiles/msgs_conversion.dir/all: ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
+rosbot_ekf/CMakeFiles/msgs_conversion.dir/all: astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
 rosbot_ekf/CMakeFiles/msgs_conversion.dir/all: comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/all
 rosbot_ekf/CMakeFiles/msgs_conversion.dir/all: comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rosbot_ekf/CMakeFiles/msgs_conversion.dir/all: comp_vis_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/all
@@ -2011,7 +2011,7 @@ rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
 # Target rules for target rosbot_ekf/CMakeFiles/cmd_vel_ws2812b_example.dir
 
 # All Build rule for target.
-rosbot_ekf/CMakeFiles/cmd_vel_ws2812b_example.dir/all: ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
+rosbot_ekf/CMakeFiles/cmd_vel_ws2812b_example.dir/all: astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
 rosbot_ekf/CMakeFiles/cmd_vel_ws2812b_example.dir/all: comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/all
 rosbot_ekf/CMakeFiles/cmd_vel_ws2812b_example.dir/all: comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rosbot_ekf/CMakeFiles/cmd_vel_ws2812b_example.dir/all: comp_vis_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/all
@@ -2444,7 +2444,7 @@ rosbot_ekf/CMakeFiles/actionlib_generate_messages_eus.dir/clean:
 # Target rules for target rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir
 
 # All Build rule for target.
-rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/all: ros_astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
+rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/all: astra_launch/CMakeFiles/_catkin_empty_exported_target.dir/all
 rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/all: comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/all
 rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/all: comp_vis_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/all: comp_vis_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/all

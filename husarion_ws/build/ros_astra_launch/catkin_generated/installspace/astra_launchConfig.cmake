@@ -67,7 +67,7 @@ set(astra_launch_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(astra_launch_SOURCE_PREFIX /home/vagrant/ECE_457_SLAM/husarion_ws/src/ros_astra_launch)
+  set(astra_launch_SOURCE_PREFIX /home/vagrant/ECE_457_SLAM/husarion_ws/src/astra_launch)
   set(astra_launch_DEVEL_PREFIX /home/vagrant/ECE_457_SLAM/husarion_ws/devel)
   set(astra_launch_INSTALL_PREFIX "")
   set(astra_launch_PREFIX ${astra_launch_DEVEL_PREFIX})

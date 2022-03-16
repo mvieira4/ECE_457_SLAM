@@ -1,4 +1,4 @@
-# Install script for directory: /home/vagrant/ECE_457_SLAM/husarion_ws/src/ros_astra_launch
+# Install script for directory: /home/vagrant/ECE_457_SLAM/husarion_ws/src/astra_launch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vagrant/ECE_457_SLAM/husarion_ws/build/ros_astra_launch/catkin_generated/installspace/astra_launch.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vagrant/ECE_457_SLAM/husarion_ws/build/astra_launch/catkin_generated/installspace/astra_launch.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/astra_launch/cmake" TYPE FILE FILES
-    "/home/vagrant/ECE_457_SLAM/husarion_ws/build/ros_astra_launch/catkin_generated/installspace/astra_launchConfig.cmake"
-    "/home/vagrant/ECE_457_SLAM/husarion_ws/build/ros_astra_launch/catkin_generated/installspace/astra_launchConfig-version.cmake"
+    "/home/vagrant/ECE_457_SLAM/husarion_ws/build/astra_launch/catkin_generated/installspace/astra_launchConfig.cmake"
+    "/home/vagrant/ECE_457_SLAM/husarion_ws/build/astra_launch/catkin_generated/installspace/astra_launchConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/astra_launch" TYPE FILE FILES "/home/vagrant/ECE_457_SLAM/husarion_ws/src/ros_astra_launch/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/astra_launch" TYPE FILE FILES "/home/vagrant/ECE_457_SLAM/husarion_ws/src/astra_launch/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/astra_launch/launch" TYPE DIRECTORY FILES "/home/vagrant/ECE_457_SLAM/husarion_ws/src/ros_astra_launch/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/astra_launch/launch" TYPE DIRECTORY FILES "/home/vagrant/ECE_457_SLAM/husarion_ws/src/astra_launch/launch/")
 endif()
 
