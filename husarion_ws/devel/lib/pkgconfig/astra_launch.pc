@@ -1,0 +1,8 @@
+prefix=/home/vagrant/ECE_457_SLAM/husarion_ws/devel
+
+Name: astra_launch
+Description: Description of astra_launch
+Version: 0.2.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

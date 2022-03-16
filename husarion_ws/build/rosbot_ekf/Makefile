@@ -333,36 +333,6 @@ tf2_msgs_generate_messages_eus/fast:
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/rule
-
-# Convenience name for target.
-move_base_ws2812b_example: rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/rule
-
-.PHONY : move_base_ws2812b_example
-
-# fast build rule for target.
-move_base_ws2812b_example/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/build.make rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/build
-.PHONY : move_base_ws2812b_example/fast
-
-# Convenience name for target.
-rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_nodejs: rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
-
-# Convenience name for target.
 rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/rule:
 	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/rule
 .PHONY : rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages.dir/rule
@@ -451,6 +421,81 @@ sensor_msgs_generate_messages_nodejs: rosbot_ekf/CMakeFiles/sensor_msgs_generate
 sensor_msgs_generate_messages_nodejs/fast:
 	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make rosbot_ekf/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+rosbot_ekf/CMakeFiles/msgs_conversion.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/msgs_conversion.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/msgs_conversion.dir/rule
+
+# Convenience name for target.
+msgs_conversion: rosbot_ekf/CMakeFiles/msgs_conversion.dir/rule
+
+.PHONY : msgs_conversion
+
+# fast build rule for target.
+msgs_conversion/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/msgs_conversion.dir/build.make rosbot_ekf/CMakeFiles/msgs_conversion.dir/build
+.PHONY : msgs_conversion/fast
+
+# Convenience name for target.
+rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosbot_ekf_generate_messages_py: rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/rule
+
+.PHONY : rosbot_ekf_generate_messages_py
+
+# fast build rule for target.
+rosbot_ekf_generate_messages_py/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/build.make rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/build
+.PHONY : rosbot_ekf_generate_messages_py/fast
+
+# Convenience name for target.
+rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/rule
+
+# Convenience name for target.
+rosbot_ekf_gennodejs: rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/rule
+
+.PHONY : rosbot_ekf_gennodejs
+
+# fast build rule for target.
+rosbot_ekf_gennodejs/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/build.make rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/build
+.PHONY : rosbot_ekf_gennodejs/fast
+
+# Convenience name for target.
+rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+nav_msgs_generate_messages_eus: rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+
+.PHONY : nav_msgs_generate_messages_eus
+
+# fast build rule for target.
+nav_msgs_generate_messages_eus/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+.PHONY : nav_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_lisp: rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_lisp/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+.PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosbot_ekf/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
@@ -603,126 +648,6 @@ geometry_msgs_generate_messages_eus/fast:
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_cpp: rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : tf2_msgs_generate_messages_cpp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_cpp/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-.PHONY : tf2_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_eus: rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/rule
-
-.PHONY : tf_generate_messages_eus
-
-# fast build rule for target.
-tf_generate_messages_eus/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/build.make rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/build
-.PHONY : tf_generate_messages_eus/fast
-
-# Convenience name for target.
-rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_py: rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/rule
-
-.PHONY : tf_generate_messages_py
-
-# fast build rule for target.
-tf_generate_messages_py/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/build.make rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/build
-.PHONY : tf_generate_messages_py/fast
-
-# Convenience name for target.
-rosbot_ekf/CMakeFiles/msgs_conversion.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/msgs_conversion.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/msgs_conversion.dir/rule
-
-# Convenience name for target.
-msgs_conversion: rosbot_ekf/CMakeFiles/msgs_conversion.dir/rule
-
-.PHONY : msgs_conversion
-
-# fast build rule for target.
-msgs_conversion/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/msgs_conversion.dir/build.make rosbot_ekf/CMakeFiles/msgs_conversion.dir/build
-.PHONY : msgs_conversion/fast
-
-# Convenience name for target.
-rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosbot_ekf_generate_messages_py: rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/rule
-
-.PHONY : rosbot_ekf_generate_messages_py
-
-# fast build rule for target.
-rosbot_ekf_generate_messages_py/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/build.make rosbot_ekf/CMakeFiles/rosbot_ekf_generate_messages_py.dir/build
-.PHONY : rosbot_ekf_generate_messages_py/fast
-
-# Convenience name for target.
-rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/rule
-
-# Convenience name for target.
-rosbot_ekf_gennodejs: rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/rule
-
-.PHONY : rosbot_ekf_gennodejs
-
-# fast build rule for target.
-rosbot_ekf_gennodejs/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/build.make rosbot_ekf/CMakeFiles/rosbot_ekf_gennodejs.dir/build
-.PHONY : rosbot_ekf_gennodejs/fast
-
-# Convenience name for target.
-rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_eus: rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-
-.PHONY : nav_msgs_generate_messages_eus
-
-# fast build rule for target.
-nav_msgs_generate_messages_eus/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make rosbot_ekf/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-.PHONY : nav_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_lisp: rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : actionlib_msgs_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make rosbot_ekf/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-.PHONY : actionlib_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
 rosbot_ekf/CMakeFiles/actionlib_generate_messages_py.dir/rule:
 	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : rosbot_ekf/CMakeFiles/actionlib_generate_messages_py.dir/rule
@@ -798,6 +723,51 @@ tf_generate_messages_cpp/fast:
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
+rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+tf2_msgs_generate_messages_cpp: rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : tf2_msgs_generate_messages_cpp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_cpp/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make rosbot_ekf/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+.PHONY : tf2_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_eus: rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/rule
+
+.PHONY : tf_generate_messages_eus
+
+# fast build rule for target.
+tf_generate_messages_eus/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/build.make rosbot_ekf/CMakeFiles/tf_generate_messages_eus.dir/build
+.PHONY : tf_generate_messages_eus/fast
+
+# Convenience name for target.
+rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_py: rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/rule
+
+.PHONY : tf_generate_messages_py
+
+# fast build rule for target.
+tf_generate_messages_py/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/build.make rosbot_ekf/CMakeFiles/tf_generate_messages_py.dir/build
+.PHONY : tf_generate_messages_py/fast
+
+# Convenience name for target.
 rosbot_ekf/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
 	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 .PHONY : rosbot_ekf/CMakeFiles/tf_generate_messages_nodejs.dir/rule
@@ -841,21 +811,6 @@ sensor_msgs_generate_messages_eus: rosbot_ekf/CMakeFiles/sensor_msgs_generate_me
 sensor_msgs_generate_messages_eus/fast:
 	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make rosbot_ekf/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-rosbot_ekf/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/_catkin_empty_exported_target.dir/rule
-.PHONY : rosbot_ekf/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: rosbot_ekf/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-.PHONY : _catkin_empty_exported_target
-
-# fast build rule for target.
-_catkin_empty_exported_target/fast:
-	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/_catkin_empty_exported_target.dir/build.make rosbot_ekf/CMakeFiles/_catkin_empty_exported_target.dir/build
-.PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 rosbot_ekf/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
@@ -931,6 +886,36 @@ actionlib_generate_messages_eus: rosbot_ekf/CMakeFiles/actionlib_generate_messag
 actionlib_generate_messages_eus/fast:
 	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/actionlib_generate_messages_eus.dir/build.make rosbot_ekf/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
+
+# Convenience name for target.
+rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/rule
+
+# Convenience name for target.
+move_base_ws2812b_example: rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/rule
+
+.PHONY : move_base_ws2812b_example
+
+# fast build rule for target.
+move_base_ws2812b_example/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/build.make rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/build
+.PHONY : move_base_ws2812b_example/fast
+
+# Convenience name for target.
+rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+.PHONY : rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_nodejs: rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+.PHONY : actionlib_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_generate_messages_nodejs/fast:
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(MAKE) -f rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make rosbot_ekf/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+.PHONY : actionlib_generate_messages_nodejs/fast
 
 src/cmd_vel_ws2812b_example.o: src/cmd_vel_ws2812b_example.cpp.o
 
@@ -1035,8 +1020,6 @@ help:
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... rebuild_cache"
 	@echo "... tf2_msgs_generate_messages_eus"
-	@echo "... move_base_ws2812b_example"
-	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... rosbot_ekf_generate_messages"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... install/local"
@@ -1044,6 +1027,11 @@ help:
 	@echo "... rosbot_ekf_gencpp"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... msgs_conversion"
+	@echo "... rosbot_ekf_generate_messages_py"
+	@echo "... rosbot_ekf_gennodejs"
+	@echo "... nav_msgs_generate_messages_eus"
+	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_cpp"
@@ -1055,28 +1043,24 @@ help:
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... nav_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... tf2_msgs_generate_messages_cpp"
-	@echo "... tf_generate_messages_eus"
-	@echo "... tf_generate_messages_py"
-	@echo "... msgs_conversion"
-	@echo "... rosbot_ekf_generate_messages_py"
-	@echo "... rosbot_ekf_gennodejs"
-	@echo "... nav_msgs_generate_messages_eus"
-	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... cmd_vel_ws2812b_example"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... tf_generate_messages_cpp"
+	@echo "... tf2_msgs_generate_messages_cpp"
+	@echo "... tf_generate_messages_eus"
+	@echo "... tf_generate_messages_py"
 	@echo "... tf_generate_messages_nodejs"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... _catkin_empty_exported_target"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_eus"
+	@echo "... move_base_ws2812b_example"
+	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... src/cmd_vel_ws2812b_example.o"
 	@echo "... src/cmd_vel_ws2812b_example.i"
 	@echo "... src/cmd_vel_ws2812b_example.s"

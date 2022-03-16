@@ -2,7 +2,7 @@
 
     <arg name="rosbot_pro" default="true" />
     <arg name="use_gazebo" default="true" />
-    <arg name="test_n:um" default="1"/>
+    <arg name="test_num" default="1"/>
     <arg name="chosen_world" value="comp_vis$(arg test_num)"/>
 
     <!-- Gazebo -->

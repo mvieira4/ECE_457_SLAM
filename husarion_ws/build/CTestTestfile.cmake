@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("ros_astra_launch")
 subdirs("comp_vis_pkg")
 subdirs("rosbot_ekf")
 subdirs("rosbot_description/src/rosbot_navigation")
