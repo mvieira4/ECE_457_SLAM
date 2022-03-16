@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ros/ros_test_workspace/devel/setup.sh
+    local-name: /home/vagrant/ros_workspace/devel/setup.sh

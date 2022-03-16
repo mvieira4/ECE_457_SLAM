@@ -1,2 +1,2 @@
-tutorial_pkg
--DCATKIN_DEVEL_PREFIX=/home/ros/ros_test_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/ros/ros_test_workspace/install -G Unix Makefiles
+rosbot_description/src/rosbot_description:rosbot_description/src/rosbot_gazebo:rosbot_description/src/rosbot_navigation
+-DCATKIN_DEVEL_PREFIX=/home/vagrant/ros_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/vagrant/ros_workspace/install -G Unix Makefiles

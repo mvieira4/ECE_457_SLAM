@@ -1,8 +1,0 @@
-prefix=/home/ros/ros_test_workspace/install
-
-Name: tutorial_pkg
-Description: Description of tutorial_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
