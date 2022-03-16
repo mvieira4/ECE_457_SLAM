@@ -1,8 +1,0 @@
-prefix=/home/vagrant/ECE_457_SLAM/husarion_ws/install
-
-Name: comp_vis_pkg
-Description: Description of comp_vis_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
