@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vagrant/ros_workspace/src
+CMAKE_SOURCE_DIR = /home/vagrant/ECE_457_SLAM/husarion_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vagrant/ros_workspace/build
+CMAKE_BINARY_DIR = /home/vagrant/ECE_457_SLAM/husarion_ws/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/vagrant/ros_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vagrant/ros_workspace/src /home/vagrant/ros_workspace/src /home/vagrant/ros_workspace/build /home/vagrant/ros_workspace/build /home/vagrant/ros_workspace/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vagrant/ECE_457_SLAM/husarion_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vagrant/ECE_457_SLAM/husarion_ws/src /home/vagrant/ECE_457_SLAM/husarion_ws/src /home/vagrant/ECE_457_SLAM/husarion_ws/build /home/vagrant/ECE_457_SLAM/husarion_ws/build /home/vagrant/ECE_457_SLAM/husarion_ws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

@@ -7,10 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/vagrant/ros_workspace/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/vagrant/ros_workspace/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/vagrant/ros_workspace/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/vagrant/ros_workspace/build'
-export PYTHONPATH="/home/vagrant/ros_workspace/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/vagrant/ros_workspace/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/vagrant/ros_workspace/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/vagrant/ECE_457_SLAM/husarion_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/vagrant/ECE_457_SLAM/husarion_ws/build'
+export PYTHONPATH="/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROS_PACKAGE_PATH="/home/vagrant/ros_workspace/src:/home/vagrant/ECE_457_SLAM/husarion_ws/src:$ROS_PACKAGE_PATH"

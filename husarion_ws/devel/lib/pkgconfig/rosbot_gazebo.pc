@@ -1,4 +1,4 @@
-prefix=/home/vagrant/ros_workspace/devel
+prefix=/home/vagrant/ECE_457_SLAM/husarion_ws/devel
 
 Name: rosbot_gazebo
 Description: Description of rosbot_gazebo

@@ -1,2 +1,2 @@
-rosbot_description/src/rosbot_description:rosbot_description/src/rosbot_gazebo:rosbot_description/src/rosbot_navigation
--DCATKIN_DEVEL_PREFIX=/home/vagrant/ros_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/vagrant/ros_workspace/install -G Unix Makefiles
+rosbot_description/rosbot_description:rosbot_description/rosbot_gazebo:rosbot_description/rosbot_navigation:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/vagrant/ECE_457_SLAM/husarion_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vagrant/ECE_457_SLAM/husarion_ws/install -G Unix Makefiles
