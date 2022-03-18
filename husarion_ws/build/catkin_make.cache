@@ -1,2 +1,2 @@
-rosbot_description/rosbot_description:rosbot_description/rosbot_gazebo:rosbot_description/rosbot_navigation:rplidar_ros
+rosbot_description/rosbot_description:rosbot_description/rosbot_gazebo:rosbot_description/rosbot_navigation:rosbot_ekf:rplidar_ros
 -DCATKIN_DEVEL_PREFIX=/home/vagrant/ECE_457_SLAM/husarion_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vagrant/ECE_457_SLAM/husarion_ws/install -G Unix Makefiles

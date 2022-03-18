@@ -1,0 +1,3 @@
+[submodule "husarion_ws/src/rosbot_ekf"]
+	path = husarion_ws/src/rosbot_ekf
+	url = git@github.com:husarion/rosbot_ekf.git

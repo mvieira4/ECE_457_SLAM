@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("rosbot_ekf")
 subdirs("rplidar_ros")
 subdirs("rosbot_description/rosbot_navigation")
 subdirs("rosbot_description/rosbot_description")
