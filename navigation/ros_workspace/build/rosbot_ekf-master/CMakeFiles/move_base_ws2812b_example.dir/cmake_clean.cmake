@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/rosbot_ekf/move_base_ws2812b_example"
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/rosbot_ekf/move_base_ws2812b_example.pdb"
   "CMakeFiles/move_base_ws2812b_example.dir/src/move_base_ws2812b_example.cpp.o"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/rosbot_ekf/move_base_ws2812b_example.pdb"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/rosbot_ekf/move_base_ws2812b_example"
 )
 
 # Per-language clean rules from dependency scanning.

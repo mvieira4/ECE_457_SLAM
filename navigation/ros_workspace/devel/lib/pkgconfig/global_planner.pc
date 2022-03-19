@@ -1,8 +1,0 @@
-prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel
-
-Name: global_planner
-Description: Description of global_planner
-Version: 1.14.9
-Cflags: -I/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/include -I/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/navigation-kinetic-devel/global_planner/include
-Libs: -L${prefix}/lib -lglobal_planner
-Requires: costmap_2d dynamic_reconfigure geometry_msgs nav_core navfn nav_msgs pluginlib roscpp tf

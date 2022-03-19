@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/rosbot_ekf/msgs_conversion"
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/rosbot_ekf/msgs_conversion.pdb"
   "CMakeFiles/msgs_conversion.dir/src/msgs_conversion.cpp.o"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/rosbot_ekf/msgs_conversion.pdb"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/rosbot_ekf/msgs_conversion"
 )
 
 # Per-language clean rules from dependency scanning.

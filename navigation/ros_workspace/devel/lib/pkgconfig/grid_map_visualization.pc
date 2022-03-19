@@ -1,8 +1,0 @@
-prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel
-
-Name: grid_map_visualization
-Description: Description of grid_map_visualization
-Version: 1.6.0
-Cflags: -I/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_visualization/include
-Libs: -L${prefix}/lib 
-Requires: roscpp tf grid_map_core grid_map_ros grid_map_msgs visualization_msgs sensor_msgs nav_msgs

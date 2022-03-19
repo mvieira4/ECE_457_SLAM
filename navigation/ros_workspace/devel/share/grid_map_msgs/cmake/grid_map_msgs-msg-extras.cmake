@@ -1,2 +1,0 @@
-set(grid_map_msgs_MESSAGE_FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMapInfo.msg;/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/msg/GridMap.msg")
-set(grid_map_msgs_SERVICE_FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMap.srv;/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/GetGridMapInfo.srv;/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/grid_map-1.6.0/grid_map_msgs/srv/ProcessFile.srv")

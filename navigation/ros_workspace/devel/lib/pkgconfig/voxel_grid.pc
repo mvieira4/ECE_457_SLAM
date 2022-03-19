@@ -1,8 +1,0 @@
-prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel
-
-Name: voxel_grid
-Description: Description of voxel_grid
-Version: 1.14.9
-Cflags: -I/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/navigation-kinetic-devel/voxel_grid/include
-Libs: -L${prefix}/lib -lvoxel_grid
-Requires: roscpp

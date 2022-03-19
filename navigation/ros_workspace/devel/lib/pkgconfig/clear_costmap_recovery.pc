@@ -1,8 +1,0 @@
-prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel
-
-Name: clear_costmap_recovery
-Description: Description of clear_costmap_recovery
-Version: 1.14.9
-Cflags: -I/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/navigation-kinetic-devel/clear_costmap_recovery/include
-Libs: -L${prefix}/lib -lclear_costmap_recovery
-Requires: costmap_2d nav_core pluginlib roscpp tf

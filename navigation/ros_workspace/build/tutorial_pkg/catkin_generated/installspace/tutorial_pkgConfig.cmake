@@ -67,14 +67,14 @@ set(tutorial_pkg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tutorial_pkg_SOURCE_PREFIX /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg)
-  set(tutorial_pkg_DEVEL_PREFIX /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel)
+  set(tutorial_pkg_SOURCE_PREFIX /home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg)
+  set(tutorial_pkg_DEVEL_PREFIX /home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel)
   set(tutorial_pkg_INSTALL_PREFIX "")
   set(tutorial_pkg_PREFIX ${tutorial_pkg_DEVEL_PREFIX})
 else()
   set(tutorial_pkg_SOURCE_PREFIX "")
   set(tutorial_pkg_DEVEL_PREFIX "")
-  set(tutorial_pkg_INSTALL_PREFIX /home/ros/ECE_457_SLAM/navigation/ros_workspace/install)
+  set(tutorial_pkg_INSTALL_PREFIX /home/vagrant/ECE_457_SLAM/navigation/ros_workspace/install)
   set(tutorial_pkg_PREFIX ${tutorial_pkg_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/ECE_457_SLAM/navigation/ros_workspace/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/vagrant/ECE_457_SLAM/navigation/ros_workspace/install/lib;/home/vagrant/ros_workspace/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(tutorial_pkg_LIBRARIES ${tutorial_pkg_LIBRARIES})
 
   _list_append_unique(tutorial_pkg_LIBRARY_DIRS ${${tutorial_pkg_dep}_LIBRARY_DIRS})
-  list(APPEND tutorial_pkg_EXPORTED_TARGETS ${${tutorial_pkg_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(tutorial_pkg_EXPORTED_TARGETS ${${tutorial_pkg_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

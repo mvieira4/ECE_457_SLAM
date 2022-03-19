@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/share/common-lisp/ros/rosbot_ekf/msg/Imu.lisp"
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/share/common-lisp/ros/rosbot_ekf/srv/Configuration.lisp"
   "CMakeFiles/rosbot_ekf_generate_messages_lisp"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/share/common-lisp/ros/rosbot_ekf/msg/Imu.lisp"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/share/common-lisp/ros/rosbot_ekf/srv/Configuration.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

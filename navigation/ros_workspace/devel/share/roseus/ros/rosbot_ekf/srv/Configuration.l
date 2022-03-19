@@ -75,6 +75,14 @@
 (intern "*COMMAND_NOT_FOUND*" (find-package "ROSBOT_EKF::CONFIGURATIONRESPONSE"))
 (shadow '*COMMAND_NOT_FOUND* (find-package "ROSBOT_EKF::CONFIGURATIONRESPONSE"))
 (defconstant rosbot_ekf::ConfigurationResponse::*COMMAND_NOT_FOUND* 2)
+
+(defun rosbot_ekf::ConfigurationResponse-to-symbol (const)
+  (cond
+        ((= const 0) 'rosbot_ekf::ConfigurationResponse::*SUCCESS*)
+        ((= const 1) 'rosbot_ekf::ConfigurationResponse::*FAILURE*)
+        ((= const 2) 'rosbot_ekf::ConfigurationResponse::*COMMAND_NOT_FOUND*)
+        (t nil)))
+
 (defclass rosbot_ekf::ConfigurationResponse
   :super ros::object
   :slots (_data _result ))

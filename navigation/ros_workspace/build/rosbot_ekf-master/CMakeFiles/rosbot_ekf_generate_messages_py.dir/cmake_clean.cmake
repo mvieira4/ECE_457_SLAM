@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python3/dist-packages/rosbot_ekf/msg/_Imu.py"
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python3/dist-packages/rosbot_ekf/msg/__init__.py"
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python3/dist-packages/rosbot_ekf/srv/_Configuration.py"
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python3/dist-packages/rosbot_ekf/srv/__init__.py"
   "CMakeFiles/rosbot_ekf_generate_messages_py"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/rosbot_ekf/msg/_Imu.py"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/rosbot_ekf/srv/_Configuration.py"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/rosbot_ekf/msg/__init__.py"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/python2.7/dist-packages/rosbot_ekf/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,0 @@
-prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/install
-
-Name: move_slow_and_clear
-Description: Description of move_slow_and_clear
-Version: 1.14.9
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lmove_slow_and_clear
-Requires: geometry_msgs nav_core pluginlib roscpp

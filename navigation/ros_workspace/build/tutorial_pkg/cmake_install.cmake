@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg
+# Install script for directory: /home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/ECE_457_SLAM/navigation/ros_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,58 +32,63 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg/catkin_generated/installspace/tutorial_pkg.pc")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg/catkin_generated/installspace/tutorial_pkg.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg/cmake" TYPE FILE FILES
-    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg/catkin_generated/installspace/tutorial_pkgConfig.cmake"
-    "/home/ros/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg/catkin_generated/installspace/tutorial_pkgConfig-version.cmake"
+    "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg/catkin_generated/installspace/tutorial_pkgConfig.cmake"
+    "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/build/tutorial_pkg/catkin_generated/installspace/tutorial_pkgConfig-version.cmake"
     )
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE FILE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/package.xml")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE FILE FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/package.xml")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/launch")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/launch")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/image_rec")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/image_rec")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/rviz")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/rviz")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/config")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/config")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/scripts" USE_SOURCE_PERMISSIONS)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_pkg" TYPE DIRECTORY FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/scripts" USE_SOURCE_PERMISSIONS)
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/deploymentScripts/" USE_SOURCE_PERMISSIONS)
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share" TYPE DIRECTORY FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/tutorial_pkg/deploymentScripts/" USE_SOURCE_PERMISSIONS)
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/tutorial_pkg_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/tutorial_pkg_node")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/tutorial_pkg_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg" TYPE EXECUTABLE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/tutorial_pkg_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg" TYPE EXECUTABLE FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/tutorial_pkg_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/tutorial_pkg_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/tutorial_pkg_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/tutorial_pkg_node"
-         OLD_RPATH "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/tutorial_pkg_node")
@@ -91,19 +96,19 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   endif()
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/action_controller_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/action_controller_node")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/action_controller_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg" TYPE EXECUTABLE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg" TYPE EXECUTABLE FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/action_controller_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/action_controller_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/action_controller_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/action_controller_node"
-         OLD_RPATH "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/action_controller_node")
@@ -111,19 +116,19 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   endif()
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/drive_controller_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/drive_controller_node")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/drive_controller_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg" TYPE EXECUTABLE FILES "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/drive_controller_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg" TYPE EXECUTABLE FILES "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/lib/tutorial_pkg/drive_controller_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/drive_controller_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/drive_controller_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/drive_controller_node"
-         OLD_RPATH "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/tutorial_pkg/drive_controller_node")

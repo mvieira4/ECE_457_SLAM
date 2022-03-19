@@ -62,8 +62,8 @@ class ConfigurationRequest {
 
   static getMessageSize(object) {
     let length = 0;
-    length += object.command.length;
-    length += object.data.length;
+    length += _getByteLength(object.command);
+    length += _getByteLength(object.data);
     return length + 8;
   }
 
@@ -155,7 +155,7 @@ class ConfigurationResponse {
 
   static getMessageSize(object) {
     let length = 0;
-    length += object.data.length;
+    length += _getByteLength(object.data);
     return length + 5;
   }
 

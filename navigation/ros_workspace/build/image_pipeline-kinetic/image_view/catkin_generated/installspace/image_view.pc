@@ -1,8 +1,0 @@
-prefix=/home/ros/ECE_457_SLAM/navigation/ros_workspace/install
-
-Name: image_view
-Description: Description of image_view
-Version: 1.12.23
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: dynamic_reconfigure

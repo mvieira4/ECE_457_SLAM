@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/include/rosbot_ekf/Configuration.h"
+  "/home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel/include/rosbot_ekf/Imu.h"
   "CMakeFiles/rosbot_ekf_generate_messages_cpp"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/include/rosbot_ekf/Imu.h"
-  "/home/ros/ECE_457_SLAM/navigation/ros_workspace/devel/include/rosbot_ekf/Configuration.h"
 )
 
 # Per-language clean rules from dependency scanning.

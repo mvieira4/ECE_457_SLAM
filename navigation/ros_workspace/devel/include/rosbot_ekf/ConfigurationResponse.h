@@ -43,6 +43,17 @@ struct ConfigurationResponse_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(SUCCESS)
+  #undef SUCCESS
+#endif
+#if defined(_WIN32) && defined(FAILURE)
+  #undef FAILURE
+#endif
+#if defined(_WIN32) && defined(COMMAND_NOT_FOUND)
+  #undef COMMAND_NOT_FOUND
+#endif
+
   enum {
     SUCCESS = 0u,
     FAILURE = 1u,
@@ -77,6 +88,21 @@ ros::message_operations::Printer< ::rosbot_ekf::ConfigurationResponse_<Container
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator1> & lhs, const ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator2> & rhs)
+{
+  return lhs.data == rhs.data &&
+    lhs.result == rhs.result;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator1> & lhs, const ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace rosbot_ekf
 
 namespace ros
@@ -86,23 +112,7 @@ namespace message_traits
 
 
 
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'std_msgs': ['/opt/ros/kinetic/share/std_msgs/cmake/../msg']}
 
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
-
-
-
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator> const>
-  : FalseType
-  { };
 
 template <class ContainerAllocator>
 struct IsMessage< ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator> >
@@ -112,6 +122,16 @@ struct IsMessage< ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>
@@ -154,13 +174,13 @@ struct Definition< ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "string data\n\
-uint8 result\n\
-uint8 SUCCESS=0\n\
-uint8 FAILURE=1\n\
-uint8 COMMAND_NOT_FOUND=2\n\
-\n\
-";
+    return "string data\n"
+"uint8 result\n"
+"uint8 SUCCESS=0\n"
+"uint8 FAILURE=1\n"
+"uint8 COMMAND_NOT_FOUND=2\n"
+"\n"
+;
   }
 
   static const char* value(const ::rosbot_ekf::ConfigurationResponse_<ContainerAllocator>&) { return value(); }

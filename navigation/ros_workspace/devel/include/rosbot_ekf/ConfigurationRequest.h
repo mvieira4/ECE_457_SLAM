@@ -66,6 +66,21 @@ ros::message_operations::Printer< ::rosbot_ekf::ConfigurationRequest_<ContainerA
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator1> & lhs, const ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator2> & rhs)
+{
+  return lhs.command == rhs.command &&
+    lhs.data == rhs.data;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator1> & lhs, const ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace rosbot_ekf
 
 namespace ros
@@ -75,23 +90,7 @@ namespace message_traits
 
 
 
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'std_msgs': ['/opt/ros/kinetic/share/std_msgs/cmake/../msg']}
 
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
-
-
-
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator> const>
-  : FalseType
-  { };
 
 template <class ContainerAllocator>
 struct IsMessage< ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator> >
@@ -101,6 +100,16 @@ struct IsMessage< ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>
@@ -143,9 +152,9 @@ struct Definition< ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "string command\n\
-string data\n\
-";
+    return "string command\n"
+"string data\n"
+;
   }
 
   static const char* value(const ::rosbot_ekf::ConfigurationRequest_<ContainerAllocator>&) { return value(); }

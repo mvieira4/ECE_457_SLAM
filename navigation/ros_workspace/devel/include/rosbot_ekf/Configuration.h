@@ -57,8 +57,8 @@ struct DataType< ::rosbot_ekf::Configuration > {
 };
 
 
-// service_traits::MD5Sum< ::rosbot_ekf::ConfigurationRequest> should match 
-// service_traits::MD5Sum< ::rosbot_ekf::Configuration > 
+// service_traits::MD5Sum< ::rosbot_ekf::ConfigurationRequest> should match
+// service_traits::MD5Sum< ::rosbot_ekf::Configuration >
 template<>
 struct MD5Sum< ::rosbot_ekf::ConfigurationRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::rosbot_ekf::ConfigurationRequest>
   }
 };
 
-// service_traits::DataType< ::rosbot_ekf::ConfigurationRequest> should match 
-// service_traits::DataType< ::rosbot_ekf::Configuration > 
+// service_traits::DataType< ::rosbot_ekf::ConfigurationRequest> should match
+// service_traits::DataType< ::rosbot_ekf::Configuration >
 template<>
 struct DataType< ::rosbot_ekf::ConfigurationRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::rosbot_ekf::ConfigurationRequest>
   }
 };
 
-// service_traits::MD5Sum< ::rosbot_ekf::ConfigurationResponse> should match 
-// service_traits::MD5Sum< ::rosbot_ekf::Configuration > 
+// service_traits::MD5Sum< ::rosbot_ekf::ConfigurationResponse> should match
+// service_traits::MD5Sum< ::rosbot_ekf::Configuration >
 template<>
 struct MD5Sum< ::rosbot_ekf::ConfigurationResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::rosbot_ekf::ConfigurationResponse>
   }
 };
 
-// service_traits::DataType< ::rosbot_ekf::ConfigurationResponse> should match 
-// service_traits::DataType< ::rosbot_ekf::Configuration > 
+// service_traits::DataType< ::rosbot_ekf::ConfigurationResponse> should match
+// service_traits::DataType< ::rosbot_ekf::Configuration >
 template<>
 struct DataType< ::rosbot_ekf::ConfigurationResponse>
 {

@@ -67,14 +67,14 @@ set(rosbot_ekf_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosbot_ekf_SOURCE_PREFIX /home/ros/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_ekf-master)
-  set(rosbot_ekf_DEVEL_PREFIX /home/ros/ECE_457_SLAM/navigation/ros_workspace/devel)
+  set(rosbot_ekf_SOURCE_PREFIX /home/vagrant/ECE_457_SLAM/navigation/ros_workspace/src/rosbot_ekf-master)
+  set(rosbot_ekf_DEVEL_PREFIX /home/vagrant/ECE_457_SLAM/navigation/ros_workspace/devel)
   set(rosbot_ekf_INSTALL_PREFIX "")
   set(rosbot_ekf_PREFIX ${rosbot_ekf_DEVEL_PREFIX})
 else()
   set(rosbot_ekf_SOURCE_PREFIX "")
   set(rosbot_ekf_DEVEL_PREFIX "")
-  set(rosbot_ekf_INSTALL_PREFIX /home/ros/ECE_457_SLAM/navigation/ros_workspace/install)
+  set(rosbot_ekf_INSTALL_PREFIX /home/vagrant/ECE_457_SLAM/navigation/ros_workspace/install)
   set(rosbot_ekf_PREFIX ${rosbot_ekf_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/ECE_457_SLAM/navigation/ros_workspace/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/vagrant/ECE_457_SLAM/navigation/ros_workspace/install/lib;/home/vagrant/ros_workspace/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(rosbot_ekf_LIBRARIES ${rosbot_ekf_LIBRARIES})
 
   _list_append_unique(rosbot_ekf_LIBRARY_DIRS ${${rosbot_ekf_dep}_LIBRARY_DIRS})
-  list(APPEND rosbot_ekf_EXPORTED_TARGETS ${${rosbot_ekf_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(rosbot_ekf_EXPORTED_TARGETS ${${rosbot_ekf_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "rosbot_ekf-msg-extras.cmake")
