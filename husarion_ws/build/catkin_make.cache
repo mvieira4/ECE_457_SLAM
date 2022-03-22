@@ -1,2 +1,0 @@
-pose_pkg:rosbot_description/src/rosbot_description:rosbot_description/src/rosbot_gazebo:rosbot_description/src/rosbot_navigation
--DCATKIN_DEVEL_PREFIX=/home/ros/ECE_457_SLAM/husarion_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ros/ECE_457_SLAM/husarion_ws/install -G Unix Makefiles
