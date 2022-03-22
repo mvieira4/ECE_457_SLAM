@@ -1,2 +1,0 @@
-map_navigation_pkg:rosbot_ekf-master:rplidar_ros:teleop_twist_keyboard-master:tutorial_pkg
--DCATKIN_DEVEL_PREFIX=/home/vagrant/ECE_457_SLAM/husarion_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vagrant/ECE_457_SLAM/husarion_ws/install -G Unix Makefiles

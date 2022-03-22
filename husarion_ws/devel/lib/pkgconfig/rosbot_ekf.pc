@@ -1,8 +1,0 @@
-prefix=/home/vagrant/ECE_457_SLAM/husarion_ws/devel
-
-Name: rosbot_ekf
-Description: Description of rosbot_ekf
-Version: 1.0.0
-Cflags: -I/home/vagrant/ECE_457_SLAM/husarion_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy message_runtime
