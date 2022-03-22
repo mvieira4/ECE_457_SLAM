@@ -1,0 +1,13 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/computer-vision/ros_workspace/src",
+    "python.autoComplete.extraPaths": [
+        "/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/python3/dist-packages",
+        "/home/vagrant/ros_workspace/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vagrant/ECE_457_SLAM/husarion_ws/devel/lib/python3/dist-packages",
+        "/home/vagrant/ros_workspace/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

@@ -1,0 +1,38 @@
+<launch>
+
+    <arg name="rosbot_pro" default="true" />
+    <arg name="use_gazebo" default="true" />
+    <arg name="test_num" default="1"/>
+    <arg name="chosen_world" value="comp_vis$(arg test_num)"/>
+
+    <!-- Gazebo -->
+    <group if="$(arg use_gazebo)">
+        <include file="$(find comp_vis_pkg)/comp_vis_test_env/launch/$(arg chosen_world).launch"/>
+        <include file="$(find rosbot_description)/launch/rosbot_gazebo.launch"/>
+            <param name="use_sim_time" value="true"/>
+    </group>
+
+    <!-- ROSbot 2.0 -->
+    <group unless="$(arg use_gazebo)">
+        <include file="$(find rosbot_ekf)/launch/all.launch">
+            <arg name="rosbot_pro" value="$(arg rosbot_pro)"/>
+        </include>
+
+        <include file="$(find astra_launch)/launch/astra.launch"/>
+
+        <node pkg="tf" type="static_transform_publisher" name="camera_publisher" args="-0.03 0 0.18 0 0 0 base_link camera_link 100" />
+    </group>
+
+    
+
+    <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen"/>
+
+    <node pkg="find_object_2d" type="find_object_2d" name="find_object_2d">
+        <remap from="image" to="/camera/rgb/image_raw"/>
+        <param name="gui" value="true"/>
+        <param name="objects_path" value="$(find comp_vis_pkg)/image_rec/"/>
+    </node>
+
+    <node pkg="comp_vis_pkg" type="comp_vis_controller_node" name="comp_vis_controller" output="screen"/>
+
+</launch>
