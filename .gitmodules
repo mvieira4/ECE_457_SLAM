@@ -19,3 +19,6 @@
 [submodule "husarion_ws/src/rplidar_ros"]
 	path = husarion_ws/src/rplidar_ros
 	url = https://github.com/robopeak/rplidar_ros.git
+[submodule "husarion_ws/src/darknet_ros"]
+	path = husarion_ws/src/darknet_ros
+	url = https://github.com/leggedrobotics/darknet_ros.git
