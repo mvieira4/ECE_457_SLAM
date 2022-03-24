@@ -18,6 +18,6 @@
 
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find tutorial_pkg)/rviz/tutorial_3.rviz"/>
 
-    <node name="teleop_twist_keyboard_custom" pkg="teleop_twist_keyboard_custom" type="teleop_twist_keyboard_custom.py" output="screen"/>
+    <node name="teleop_twist_keyboard_custom_custom" pkg="teleop_twist_keyboard_custom_custom" type="teleop_twist_keyboard_custom_custom.py" output="screen"/>
 
 </launch>

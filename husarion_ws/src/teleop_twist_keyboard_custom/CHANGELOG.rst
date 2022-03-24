@@ -6,20 +6,20 @@
 
 0.6.2 (2018-10-21)
 ------------------
-* Replace tabs with spaces, fixes `#15 <https://github.com/ros-teleop/teleop_twist_keyboard_custom/issues/15>`_
-* Merge pull request `#13 <https://github.com/ros-teleop/teleop_twist_keyboard_custom/issues/13>`_ from asukiaaa/patch-3
+* Replace tabs with spaces, fixes `#15 <https://github.com/ros-teleop/teleop_twist_keyboard_custom_custom/issues/15>`_
+* Merge pull request `#13 <https://github.com/ros-teleop/teleop_twist_keyboard_custom_custom/issues/13>`_ from asukiaaa/patch-3
   Add rosrun command to specify values
 * Add rosrun command to specify values
 * Contributors: Asuki Kono, Austin, trainman419
 
 0.6.1 (2018-05-02)
 ------------------
-* Merge pull request `#11 <https://github.com/ros-teleop/teleop_twist_keyboard_custom/issues/11>`_ from MatthijsBurgh/patch-1
+* Merge pull request `#11 <https://github.com/ros-teleop/teleop_twist_keyboard_custom_custom/issues/11>`_ from MatthijsBurgh/patch-1
   Correct exception handling; Python3 print compatible
 * import print from future
 * Print python3 compatible
 * correct Exception handling
-* Merge pull request `#7 <https://github.com/ros-teleop/teleop_twist_keyboard_custom/issues/7>`_ from lucasw/speed_params
+* Merge pull request `#7 <https://github.com/ros-teleop/teleop_twist_keyboard_custom_custom/issues/7>`_ from lucasw/speed_params
   set linear and turn speed via rosparams
 * Using tabs instead of spaces to match rest of file
 * set linear and turn speed via rosparams
