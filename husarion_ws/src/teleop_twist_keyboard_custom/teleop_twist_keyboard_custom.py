@@ -30,9 +30,9 @@ b : down (-z)
 
 anything else : stop
 
-q/z : increase/decrease max speeds by 10%
-w/x : increase/decrease only linear speed by 10%
-e/c : increase/decrease only angular speed by 10%
+q/z : increase/decrease max speeds by .1 m/s
+w/x : increase/decrease only linear speed by .1 m/s
+e/c : increase/decrease only angular speed by .1 rad/s
 
 CTRL-C to quit
 """
