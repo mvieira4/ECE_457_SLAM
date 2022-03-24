@@ -25,7 +25,7 @@
 
     
 
-    <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen"/>
+    <node name="teleop_twist_keyboard_custom" pkg="teleop_twist_keyboard_custom" type="teleop_twist_keyboard_custom.py" output="screen"/>
 
     <node pkg="find_object_2d" type="find_object_2d" name="find_object_2d">
         <remap from="image" to="/camera/rgb/image_raw"/>
