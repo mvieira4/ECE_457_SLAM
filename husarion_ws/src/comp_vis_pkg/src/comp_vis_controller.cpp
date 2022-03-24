@@ -143,7 +143,7 @@ int main(int argc, char **argv)
    s.data = str;
    ros::init(argc, argv, "comp_vis_controller");
    ros::NodeHandle n("~");
-   ros::Subscriber sub = n.subscribe("/objects", 1, objectCallback);
+   ros::Subscriber sub = n.subscribe("/camera_reading", 1, objectCallback);
 
    ros::Subscriber distL_sub = n.subscribe("/range/fl", 1, distFL_callback);
    ros::Subscriber distR_sub = n.subscribe("/range/fr", 1, distFR_callback);
