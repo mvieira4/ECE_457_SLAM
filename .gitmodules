@@ -1,6 +1,21 @@
-[submodule "navigation/ros_workspace/src/rplidar_ros"]
-	path = navigation/ros_workspace/src/rplidar_ros
-	url = https://github.com/Slamtec/rplidar_ros.git
+[submodule "husarion_ws/src/ros_astra_launch"]
+	path = husarion_ws/src/ros_astra_launch
+	url = https://github.com/orbbec/ros_astra_launch.git
 [submodule "husarion_ws/src/rosbot_description"]
 	path = husarion_ws/src/rosbot_description
 	url = https://github.com/husarion/rosbot_description.git
+[submodule "husarion_ws/src/rosbot_ekf"]
+	path = husarion_ws/src/rosbot_ekf
+	url = https://github.com/husarion/rosbot_ekf.git
+[submodule "husarion_ws/src/--force"]
+	path = husarion_ws/src/--force
+	url = https://github.com/orbbec/ros_astra_camera
+[submodule "husarion_ws/src/ros_astra_camera"]
+	path = husarion_ws/src/ros_astra_camera
+	url = https://github.com/orbbec/ros_astra_camera
+[submodule "navigation/ros_workspace/src/rplidar_ros"]
+	path = navigation/ros_workspace/src/rplidar_ros
+	url = https://github.com/Slamtec/rplidar_ros.git
+[submodule "husarion_ws/src/rplidar_ros"]
+	path = husarion_ws/src/rplidar_ros
+	url = https://github.com/robopeak/rplidar_ros.git
