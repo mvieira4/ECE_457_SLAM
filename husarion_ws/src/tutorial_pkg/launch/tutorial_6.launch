@@ -22,7 +22,7 @@
 
     <node unless="$(arg use_gazebo)" pkg="tf" type="static_transform_publisher" name="laser_broadcaster" args="0 0 0 3.14 0 0 base_link laser 100" />
 
-    <node pkg="teleop_twist_keyboard_custom_custom" type="teleop_twist_keyboard_custom_custom.py" name="teleop_twist_keyboard_custom_custom" output="screen"/>
+    <node pkg="teleop_twist_keyboard_custom" type="teleop_twist_keyboard_custom.py" name="teleop_twist_keyboard_custom" output="screen"/>
 
     <node pkg="gmapping" type="slam_gmapping" name="gmapping">
         <param name="base_frame" value="base_link"/>
